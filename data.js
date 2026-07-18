@@ -16,6 +16,10 @@
 //   lat, lng  - decimal coordinates, used for the Map tab. Easiest way to
 //               get these: right-click the spot on Google Maps and click
 //               the coordinates that pop up at the top — it copies them.
+//   imageUrl  - optional. Direct link to the listing's first photo. On a
+//               Zillow page, right-click the first photo and "Copy image
+//               address" — or ask Claude to pull it from the og:image tag.
+//               Omit if you don't have one; the card just skips the photo.
 //   beds      - number
 //   baths     - number
 //   sqft      - number
@@ -85,6 +89,7 @@ const LISTINGS = [
     price: 499900,
     lat: 41.5623,
     lng: -72.6506,
+    imageUrl: "https://photos.zillowstatic.com/fp/99036c74697e2b0b08c21a1d4806caa2-cc_ft_1536.jpg",
     beds: 3,
     baths: 2,
     sqft: 1576,
@@ -95,7 +100,7 @@ const LISTINGS = [
     hvac: "none",
     flags: ["Verify solar if it relists"],
     url: "https://www.zillow.com/homedetails/67-Bell-St-Middletown-CT-06457/57866674_zpid/",
-    notes: "Good separation: main floor primary + 1BR, lower level 1BR w/ own full bath. Right in Middletown. 4.6 acres, barn/stable. Sold $248k in 2019 \u2192 $499,900 now. No central air. Unpermitted/undisclosed solar — verify owned vs leased. Taxes $8,421/yr.",
+    notes: "Good separation: main floor primary + 1BR, lower level 1BR w/ own full bath. Right in Middletown. 4.6 acres, barn/stable. Sold $248k in 2019 → $499,900 now. No central air. Unpermitted/undisclosed solar — verify owned vs leased. Taxes $8,421/yr.",
     watchlist: true,
     dismissed: false
   },
@@ -108,6 +113,7 @@ const LISTINGS = [
     originalPrice: 489000,
     lat: 41.7615,
     lng: -72.9587,
+    imageUrl: "https://photos.zillowstatic.com/fp/f360f35d884f0ca0e40b6ed6493c1112-cc_ft_1536.jpg",
     beds: 4,
     baths: 3,
     sqft: 1929,
@@ -130,6 +136,7 @@ const LISTINGS = [
     price: 479900,
     lat: 41.5734,
     lng: -72.4979,
+    imageUrl: "https://photos.zillowstatic.com/fp/2a68c6fd99ac9f96795141ff2e234fe3-cc_ft_1536.jpg",
     beds: 4,
     baths: 2,
     sqft: 1923,
@@ -152,6 +159,7 @@ const LISTINGS = [
     price: 479000,
     lat: 41.5793,
     lng: -73.4087,
+    imageUrl: "https://photos.zillowstatic.com/fp/4f2aff2770ad6612ab8e8212044265fd-cc_ft_1536.jpg",
     beds: 4,
     baths: 2,
     sqft: 1908,
@@ -162,7 +170,7 @@ const LISTINGS = [
     hvac: "window",
     flags: ["Accepting backups — watch for relist"],
     url: "https://www.zillow.com/homedetails/3-Gretl-Ln-New-Milford-CT-06776/58863029_zpid/",
-    notes: "Built 1975, updated interior, refinished hardwoods. Lower level 12x15 BR + family room walkout. New furnace + HWH. Near Candlewood Lake. 2020 sale had same contingent\u2192fall-through\u2192relist pattern. Window units, mini-splits needed ~$18-25k.",
+    notes: "Built 1975, updated interior, refinished hardwoods. Lower level 12x15 BR + family room walkout. New furnace + HWH. Near Candlewood Lake. 2020 sale had same contingent→fall-through→relist pattern. Window units, mini-splits needed ~$18-25k.",
     watchlist: true,
     dismissed: false
   },
@@ -174,6 +182,7 @@ const LISTINGS = [
     price: 499900,
     lat: 41.4837,
     lng: -73.2098,
+    imageUrl: "https://photos.zillowstatic.com/fp/57b38a8ced25bbd30a235cb98cc95434-cc_ft_1536.jpg",
     beds: 3,
     baths: 2,
     sqft: 2360,
@@ -196,6 +205,7 @@ const LISTINGS = [
     price: 539900,
     lat: 41.5998,
     lng: -72.8781,
+    imageUrl: "https://photos.zillowstatic.com/fp/182e73de1b9a04e11b9666b4a58b44b0-cc_ft_1536.jpg",
     beds: 3,
     baths: 2,
     sqft: 2148,
@@ -218,6 +228,7 @@ const LISTINGS = [
     price: 499900,
     lat: 41.6032,
     lng: -73.1187,
+    imageUrl: "https://photos.zillowstatic.com/fp/96b057c422d21863764e308fad556903-cc_ft_1536.jpg",
     beds: 4,
     baths: 4,
     sqft: 2496,
@@ -240,19 +251,20 @@ const LISTINGS = [
     price: 525000,
     lat: 41.6032,
     lng: -73.1187,
+    imageUrl: "https://photos.zillowstatic.com/fp/3947fc2eb10d03b3f35bb94e58800cb5-cc_ft_1536.jpg",
     beds: 3,
     baths: 3,
     sqft: null,
     acres: 1.78,
     type: "Craftsman Cape",
-    status: "contingent",
+    status: "pending",
     listedDate: "2026-05-23",
     hvac: "central",
-    flags: [],
+    flags: ["Pending as of Thursday 7/16 — off the table"],
     url: "https://www.zillow.com/homedetails/80-Old-Baird-Rd-Watertown-CT-06795/197756999_zpid/",
     notes: "Viking appliances, stone fireplace, cathedral ceilings. Each upstairs bedroom has own en-suite bath. Main floor 3rd bed + full bath. Propane baseboard + central air. Dead-end road, 1.78 acres. Accepting backups — watch for relist.",
     watchlist: true,
-    dismissed: false
+    dismissed: true
   },
   {
     id: "392-boston-neck-rd-suffield-ct",
@@ -262,6 +274,7 @@ const LISTINGS = [
     price: 399900,
     lat: 41.9812,
     lng: -72.6482,
+    imageUrl: "https://photos.zillowstatic.com/fp/1b4bbf0b5d50fdc925ec594668fc17fc-cc_ft_1536.jpg",
     beds: 4,
     baths: 2,
     sqft: 2444,
@@ -361,7 +374,7 @@ const LISTINGS = [
     hvac: "none",
     flags: ["Panel upgrade + mini-splits needed"],
     url: "https://www.zillow.com/homedetails/1130-Main-Dalton-Rd-Windsor-MA-01270/56820467_zpid/",
-    notes: "Best acreage on the list — 9.11 acres. $182/sqft, taxes only $3,590/yr. Brook, mountain views, new deck, refinished hardwoods. 1BR/1BA first floor, primary + 2BR/1BA second floor. Dalton ~17 min, Pittsfield ~25-30 min. Budget $25-40k: mini-splits + 100\u2192200-amp panel upgrade required.",
+    notes: "Best acreage on the list — 9.11 acres. $182/sqft, taxes only $3,590/yr. Brook, mountain views, new deck, refinished hardwoods. 1BR/1BA first floor, primary + 2BR/1BA second floor. Dalton ~17 min, Pittsfield ~25-30 min. Budget $25-40k: mini-splits + 100→200-amp panel upgrade required.",
     watchlist: true,
     dismissed: false
   },

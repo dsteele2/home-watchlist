@@ -79,6 +79,7 @@ function renderCard(listing) {
 
   return `
   <article class="card card--${listing.state.toLowerCase()}" data-id="${listing.id}">
+    ${listing.imageUrl ? `<div class="card__photo"><img src="${listing.imageUrl}" alt="${listing.address}" loading="lazy"></div>` : ""}
     <div class="card__top">
       <div>
         <p class="card__address">${listing.address}</p>
