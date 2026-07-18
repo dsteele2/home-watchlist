@@ -48,6 +48,17 @@ function money(n) {
   return "$" + n.toLocaleString("en-US");
 }
 
+function staleBadge(listing) {
+  if (!listing.lastChecked) {
+    return `<span class="badge badge--stale">never checked</span>`;
+  }
+  const days = daysOnMarket(listing.lastChecked); // reuses the same date-math helper
+  if (days > 14) {
+    return `<span class="badge badge--stale">checked ${days}d ago</span>`;
+  }
+  return "";
+}
+
 function priceDropBadge(listing) {
   if (!listing.originalPrice || listing.originalPrice <= listing.price) return "";
   const cut = listing.originalPrice - listing.price;
@@ -93,6 +104,7 @@ function renderCard(listing) {
       <span>${listing.baths} ba</span>
       <span>${listing.sqft ? listing.sqft.toLocaleString() + " sqft" : "sqft n/a"}</span>
       <span>${listing.acres} ac</span>
+      <span>${money(Math.round(listing.price / listing.acres))}/ac</span>
       <span>${listing.type}</span>
     </div>
 
@@ -103,6 +115,7 @@ function renderCard(listing) {
       ${domBadge}
       ${contingentBadge}
       ${flagBadges}
+      ${staleBadge(listing)}
     </div>
 
     ${listing.notes ? `<p class="card__notes">${listing.notes}</p>` : ""}

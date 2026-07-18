@@ -277,6 +277,7 @@ body {
 .badge--flag { background: var(--rust-bg); color: var(--rust); }
 .badge--price-drop { background: var(--forest-bg); color: var(--forest); }
 .badge--dom-warn { background: var(--rust-bg); color: var(--rust); }
+.badge--stale { background: transparent; border: 1px dashed var(--ink-soft); color: var(--ink-soft); }
 
 .card__notes {
   font-size: 13px;

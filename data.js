@@ -34,6 +34,11 @@
 //   notes     - free text, shows on the card
 //   watchlist - true/false — whether this is a saved favorite
 //   dismissed - true/false — whether this has been passed on
+//   lastChecked - "YYYY-MM-DD", optional. The date you (or Claude) last
+//               confirmed this listing's status directly on Zillow/Realtor.
+//               Cards flag themselves once this gets older than 14 days —
+//               a direct response to a couple of stale reads that caused
+//               confusion this week.
 // ============================================================
 
 const LISTINGS = [
@@ -57,7 +62,8 @@ const LISTINGS = [
     url: "https://www.zillow.com/homedetails/101-Abbey-Rd-East-Hampton-CT-06424/57853768_zpid/",
     notes: "Cape near Middletown. Main floor bed+bath, upstairs primary + 2 more beds. New septic + updated electrical. Window units only, mini-splits needed. Note: Zillow briefly showed this as off-market on 7/18 — confirmed still active; Zillow status/Zestimate can lag a few days.",
     watchlist: true,
-    dismissed: false
+    dismissed: false,
+    lastChecked: "2026-07-18"
   },
   {
     id: "181-moulton-hill-rd-monson-ma",
@@ -102,7 +108,8 @@ const LISTINGS = [
     url: "https://www.zillow.com/homedetails/67-Bell-St-Middletown-CT-06457/57866674_zpid/",
     notes: "Good separation: main floor primary + 1BR, lower level 1BR w/ own full bath. Right in Middletown. 4.6 acres, barn/stable. Sold $248k in 2019 → $499,900 now. No central air. Unpermitted/undisclosed solar — verify owned vs leased. Taxes $8,421/yr.",
     watchlist: true,
-    dismissed: false
+    dismissed: false,
+    lastChecked: "2026-07-18"
   },
   {
     id: "48-case-rd-burlington-ct",
@@ -126,7 +133,8 @@ const LISTINGS = [
     url: "https://www.zillow.com/homedetails/48-Case-Rd-Burlington-CT-06013/57706189_zpid/",
     notes: "2BR/2BA main floor — natural two-person separation. 2BR/1BA upstairs bonus space. Oil forced air + central air. Solar — verify owned vs PPA/leased. Reactivated after prior contract fell through.",
     watchlist: true,
-    dismissed: false
+    dismissed: false,
+    lastChecked: "2026-07-18"
   },
   {
     id: "235-middle-haddam-rd-east-hampton-ct",
@@ -149,7 +157,8 @@ const LISTINGS = [
     url: "https://www.zillow.com/homedetails/235-Middle-Haddam-Rd-E-Middle-Haddam-CT-06456/463217927_zpid/",
     notes: "Log cabin construction, two stone fireplaces, wraparound porch. Detached 2-car garage w/ loft + heater — workshop potential. Next to Hurd State Park, ~15-18 min to Middletown. Main level 2BR/1BA + upper 2BR/1BA. Central air + whole-house Generac. Taxes $7,400/yr. Accepting backups.",
     watchlist: true,
-    dismissed: false
+    dismissed: false,
+    lastChecked: "2026-07-18"
   },
   {
     id: "3-gretl-ln-new-milford-ct",
@@ -172,7 +181,8 @@ const LISTINGS = [
     url: "https://www.zillow.com/homedetails/3-Gretl-Ln-New-Milford-CT-06776/58863029_zpid/",
     notes: "Built 1975, updated interior, refinished hardwoods. Lower level 12x15 BR + family room walkout. New furnace + HWH. Near Candlewood Lake. 2020 sale had same contingent→fall-through→relist pattern. Window units, mini-splits needed ~$18-25k.",
     watchlist: true,
-    dismissed: false
+    dismissed: false,
+    lastChecked: "2026-07-18"
   },
   {
     id: "200-bucks-hill-rd-southbury-ct",
@@ -195,7 +205,8 @@ const LISTINGS = [
     url: "https://www.zillow.com/homedetails/200-Bucks-Hill-Rd-Southbury-CT-06488/57991955_zpid/",
     notes: "3-level Cape — main floor primary suite, upper 2 large beds + full bath, basement family room. New 3-zone Burnham boiler. New roof 2022. Failed at $479,900 in 2023. Window units, mini-splits needed ~$15-25k.",
     watchlist: true,
-    dismissed: false
+    dismissed: false,
+    lastChecked: "2026-07-18"
   },
   {
     id: "143-belleview-ave-southington-ct",
@@ -218,7 +229,8 @@ const LISTINGS = [
     url: "https://www.zillow.com/homedetails/143-Belleview-Ave-Southington-CT-06489/174097245_zpid/",
     notes: "Built 1954, 1.09 acres. Natural gas + central air — best fuel combo. All bedrooms upstairs — layout concern for two-person separation.",
     watchlist: true,
-    dismissed: false
+    dismissed: false,
+    lastChecked: "2026-07-18"
   },
   {
     id: "541-middlebury-rd-watertown-ct",
@@ -241,7 +253,8 @@ const LISTINGS = [
     url: "https://www.zillow.com/homedetails/541-Middlebury-Road-Watertown-CT-06795/58870675_zpid/",
     notes: "Masonry fireplace, hardwood throughout, French doors. Finished lower level w/ full bath + walkout. Primary suite upstairs. Oil baseboard + central air. Septic 2002 — aging. Verify water district — Watertown Fire District preferred over Waterbury system.",
     watchlist: true,
-    dismissed: false
+    dismissed: false,
+    lastChecked: "2026-07-18"
   },
   {
     id: "80-old-baird-rd-watertown-ct",
@@ -264,7 +277,8 @@ const LISTINGS = [
     url: "https://www.zillow.com/homedetails/80-Old-Baird-Rd-Watertown-CT-06795/197756999_zpid/",
     notes: "Viking appliances, stone fireplace, cathedral ceilings. Each upstairs bedroom has own en-suite bath. Main floor 3rd bed + full bath. Propane baseboard + central air. Dead-end road, 1.78 acres. Accepting backups — watch for relist.",
     watchlist: true,
-    dismissed: true
+    dismissed: true,
+    lastChecked: "2026-07-18"
   },
   {
     id: "392-boston-neck-rd-suffield-ct",
@@ -287,7 +301,8 @@ const LISTINGS = [
     url: "https://www.zillow.com/homedetails/392-Boston-Neck-Rd-Suffield-CT-06078/59024451_zpid/",
     notes: "Built 1755 original, substantially renovated. $40k drop — likely long-term family estate. Clean permit history — all Complete in ViewMyPermitCT. Oil hot water + central air.",
     watchlist: true,
-    dismissed: false
+    dismissed: false,
+    lastChecked: "2026-07-18"
   },
   {
     id: "76-clark-hill-rd-prospect-ct",
