@@ -90,7 +90,7 @@ function renderCard(listing) {
     <div class="card__stats">
       <span>${listing.beds} bd</span>
       <span>${listing.baths} ba</span>
-      <span>${listing.sqft.toLocaleString()} sqft</span>
+      <span>${listing.sqft ? listing.sqft.toLocaleString() + " sqft" : "sqft n/a"}</span>
       <span>${listing.acres} ac</span>
       <span>${listing.type}</span>
     </div>
