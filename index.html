@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Field Ledger — CT/MA Home Search</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="ledger-header">
+  <div class="ledger-header__title">
+    <span class="ledger-header__eyebrow">Field Ledger</span>
+    <h1>CT / MA Home Search</h1>
+  </div>
+  <div class="ledger-header__stats" id="headerStats">
+    <div class="stat"><span class="stat__num" id="statActive">0</span><span class="stat__label">Active</span></div>
+    <div class="stat"><span class="stat__num" id="statWatch">0</span><span class="stat__label">Watchlist</span></div>
+    <div class="stat"><span class="stat__num" id="statFlag">0</span><span class="stat__label">Flagged</span></div>
+  </div>
+</header>
+
+<nav class="tabbar" id="tabbar">
+  <button class="tab is-active" data-tab="all">All</button>
+  <button class="tab" data-tab="watch">Watchlist</button>
+  <button class="tab" data-tab="ct">Connecticut</button>
+  <button class="tab" data-tab="ma">Massachusetts</button>
+  <button class="tab" data-tab="map">Map</button>
+  <button class="tab" data-tab="dismissed">Dismissed</button>
+</nav>
+
+<div class="controls">
+  <input type="search" id="searchBox" placeholder="Search address, town, notes…" autocomplete="off">
+  <select id="sortSelect">
+    <option value="price-asc">Price: low to high</option>
+    <option value="price-desc">Price: high to low</option>
+    <option value="acres-desc">Acreage: most to least</option>
+    <option value="dom-desc">Days on market: most</option>
+    <option value="listed-desc">Listed: newest first</option>
+  </select>
+</div>
+
+<main id="cardGrid" class="card-grid"></main>
+<div id="mapView" class="map-view" hidden></div>
+
+<p class="empty-state" id="emptyState" hidden>No properties match this filter.</p>
+
+<footer class="ledger-footer">
+  <p>Data last edited by hand in <code>data.js</code>. Deployed via Vercel.</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
