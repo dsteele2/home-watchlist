@@ -80,14 +80,15 @@ const LISTINGS = [
     sqft: 2047,
     acres: 2,
     type: "Colonial",
-    status: "active",
+    status: "contingent",
     listedDate: "2026-07-15",
     hvac: "central",
-    flags: ["Move fast — will go quickly"],
+    flags: ["Move fast — will go quickly", "Under contract as of 7/20 — went fast as expected"],
     url: "https://www.zillow.com/homedetails/181-Moulton-Hill-Rd-Monson-MA-01057/193645908_zpid/",
     notes: "Built 2009, clean modern systems. Perfect split: 2BR/1BA first floor + 2BR/1BA second floor. Central air. Walkout basement unfinished. 2-car garage + 6 parking. Taxes $6,760/yr.",
     watchlist: true,
-    dismissed: false
+    dismissed: true,
+    lastChecked: "2026-07-20"
   },
   {
     id: "67-bell-st-middletown-ct",
