@@ -56,15 +56,15 @@ const LISTINGS = [
     sqft: 2427,
     acres: 1.06,
     type: "Cape",
-    status: "active",
+    status: "pending",
     listedDate: "2026-07-16",
     hvac: "window",
-    flags: ["Strong interest — 1,578 views / 126 saves as of day 2"],
+    flags: ["Strong interest — 1,578 views / 126 saves as of day 2", "Now pending as of 7/27"],
     url: "https://www.zillow.com/homedetails/101-Abbey-Rd-East-Hampton-CT-06424/57853768_zpid/",
     notes: "Cape near Middletown. Main floor bed+bath, upstairs primary + 2 more beds. New septic + updated electrical. Window units only, mini-splits needed. Note: Zillow briefly showed this as off-market on 7/18 — confirmed still active; Zillow status/Zestimate can lag a few days.",
     watchlist: true,
     dismissed: false,
-    lastChecked: "2026-07-18"
+    lastChecked: "2026-07-27"
   },
   {
     id: "181-moulton-hill-rd-monson-ma",
@@ -177,15 +177,15 @@ const LISTINGS = [
     sqft: 1908,
     acres: 1.08,
     type: "Raised Ranch",
-    status: "contingent",
+    status: "pending",
     listedDate: "2026-06-07",
     hvac: "window",
-    flags: ["Accepting backups — watch for relist"],
+    flags: ["Accepting backups — watch for relist", "Now pending as of 7/27, no longer just contingent"],
     url: "https://www.zillow.com/homedetails/3-Gretl-Ln-New-Milford-CT-06776/58863029_zpid/",
     notes: "Built 1975, updated interior, refinished hardwoods. Lower level 12x15 BR + family room walkout. New furnace + HWH. Near Candlewood Lake. 2020 sale had same contingent→fall-through→relist pattern. Window units, mini-splits needed ~$18-25k.",
     watchlist: true,
     dismissed: false,
-    lastChecked: "2026-07-18"
+    lastChecked: "2026-07-27"
   },
   {
     id: "200-bucks-hill-rd-southbury-ct",
@@ -201,15 +201,15 @@ const LISTINGS = [
     sqft: 2360,
     acres: 1.53,
     type: "Cape",
-    status: "contingent",
+    status: "sold",
     listedDate: "2026-05-28",
     hvac: "window",
-    flags: ["Accepting backups"],
+    flags: ["Accepting backups", "SOLD as of 7/27"],
     url: "https://www.zillow.com/homedetails/200-Bucks-Hill-Rd-Southbury-CT-06488/57991955_zpid/",
     notes: "3-level Cape — main floor primary suite, upper 2 large beds + full bath, basement family room. New 3-zone Burnham boiler. New roof 2022. Failed at $479,900 in 2023. Window units, mini-splits needed ~$15-25k.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-07-18"
+    dismissed: true,
+    lastChecked: "2026-07-27"
   },
   {
     id: "143-belleview-ave-southington-ct",
@@ -392,14 +392,15 @@ const LISTINGS = [
     sqft: 2616,
     acres: 9.11,
     type: "Single family",
-    status: "active",
+    status: "pending",
     listedDate: "2026-06-10",
     hvac: "none",
-    flags: ["Panel upgrade + mini-splits needed"],
+    flags: ["Panel upgrade + mini-splits needed", "Now pending as of 7/27"],
     url: "https://www.zillow.com/homedetails/1130-Main-Dalton-Rd-Windsor-MA-01270/56820467_zpid/",
     notes: "Best acreage on the list — 9.11 acres. $182/sqft, taxes only $3,590/yr. Brook, mountain views, new deck, refinished hardwoods. 1BR/1BA first floor, primary + 2BR/1BA second floor. Dalton ~17 min, Pittsfield ~25-30 min. Budget $25-40k: mini-splits + 100→200-amp panel upgrade required.",
     watchlist: true,
-    dismissed: false
+    dismissed: false,
+    lastChecked: "2026-07-27"
   },
   {
     id: "1511-dunhamtown-brimfield-rd-brimfield-ma",
@@ -461,14 +462,14 @@ const LISTINGS = [
     sqft: 2288,
     acres: 1.59,
     type: "Ranch",
-    status: "active",
+    status: "pending",
     hvac: "none",
-    flags: ["Taxes $9,104/yr and climbing — ~$10k within 2 years at current rate", "Baseboard hot water, no ductwork — mini-splits from scratch ~$18-25k", "78.9% markup since 2019 ($289k → $517k)", "Market will likely decide this one quickly"],
+    flags: ["Taxes $9,104/yr and climbing — ~$10k within 2 years at current rate", "Baseboard hot water, no ductwork — mini-splits from scratch ~$18-25k", "78.9% markup since 2019 ($289k → $517k)", "Market will likely decide this one quickly", "Now pending as of 7/27 — expected, market decided quickly"],
     url: "https://www.zillow.com/homedetails/100-Heritage-Dr-Glastonbury-CT-06033/174072472_zpid",
     notes: "Ranch with finished lower level. Great separation: main floor primary (remodeled en-suite) + 1BR + full bath; lower level 1BR + full bath + family room w/ fireplace. Central air. Vaulted ceilings, skylights, quartz kitchen, 2 fireplaces. 2-car garage, shed. Glastonbury — strong town, good infrastructure.",
     watchlist: true,
     dismissed: false,
-    lastChecked: "2026-07-18"
+    lastChecked: "2026-07-27"
   },
   {
     id: "436-tiffany-ln-bristol-ct",
