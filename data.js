@@ -576,6 +576,7 @@ const LISTINGS = [
     price: 469000,
     lat: 42.3732,
     lng: -72.5199,
+    imageUrl: "https://photos.zillowstatic.com/fp/77becfb983e847c8e3e8c157ae3710c3-cc_ft_768.webp",
     beds: 4,
     baths: 2,
     sqft: 1773,
