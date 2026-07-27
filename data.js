@@ -567,5 +567,27 @@ const LISTINGS = [
     watchlist: true,
     dismissed: false,
     lastChecked: "2026-07-18"
+  },
+  {
+    id: "23-s-mount-holyoke-dr-amherst-ma",
+    address: "23 S Mount Holyoke Dr",
+    town: "Amherst",
+    state: "MA",
+    price: 469000,
+    lat: 42.3732,
+    lng: -72.5199,
+    beds: 4,
+    baths: 2,
+    sqft: 1773,
+    acres: 1.27,
+    type: "Cape",
+    status: "active",
+    hvac: "minisplit",
+    flags: ["Former rental history — likely dated condition", "Very few listing photos — possibly hiding something", "No mention of updates", "Taxes $8,822/yr and climbing (Amherst premium)", "1964 build — mechanicals age unknown", "Will move fast in Amherst market"],
+    url: "https://www.zillow.com/homedetails/23-S-Mount-Holyoke-Dr-Amherst-MA-01002/56258132_zpid",
+    notes: "Perfect floor separation — 2BR/1BA first floor, 2BR/1BA second floor. Mini-splits already installed (ductless). Forced air oil heat. 2 fireplaces, hardwood floors. Walkout unfinished basement. 1.27 acres, prime Pioneer Valley location. Priced $89k under Zestimate ($558,300) — unusual gap.",
+    watchlist: true,
+    dismissed: false,
+    lastChecked: "2026-07-27"
   }
 ];
