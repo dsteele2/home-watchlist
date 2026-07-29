@@ -359,7 +359,7 @@ const LISTINGS = [
     address: "68 Lyon Rd",
     town: "West Brookfield",
     state: "MA",
-    price: 495000,
+    price: 430000,
     originalPrice: 525000,
     lat: 42.2382,
     lng: -72.1512,
@@ -372,11 +372,12 @@ const LISTINGS = [
     status: "active",
     listedDate: "2026-06-14",
     hvac: "none",
-    flags: ["Not move-in ready — watch for more drops"],
+    flags: ["Not move-in ready — bare subfloor, unfinished drywall in photos", "Electric heat — needs full heat pump/mini-split overhaul ~$20-30k", "Odd exterior aesthetic", "68+ days on market even after cuts — watch if others look and pass to gauge hidden issues", "$65k cut on 7/28 ($495k → $430k) — finally in consideration range"],
     url: "https://www.zillow.com/homedetails/68-Lyon-Rd-West-Brookfield-MA-01585/57673905_zpid/",
-    notes: "ADU layout: upper 3BR + half bath + kitchen/living, lower BR + full bath + kitchenette + 2 bonus rooms. 3-car detached garage w/ upper room — workshop potential. Ware 9 min. NOT move-in ready — bare subfloor, unfinished drywall. Electric radiant heat needs full overhaul, ~$20-30k. Watch for drop toward $459-465k.",
+    notes: "ADU-style layout — upper level 3BR + half bath + kitchen/living, lower level BR + full bath + kitchenette + 2 bonus rooms. Heated 3-car detached garage — excellent workshop/studio potential. Ware 9 min. Taxes $3,866/yr — one of the lowest on the list.",
     watchlist: true,
-    dismissed: false
+    dismissed: false,
+    lastChecked: "2026-07-28"
   },
   {
     id: "1130-main-dalton-rd-windsor-ma",
