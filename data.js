@@ -591,5 +591,29 @@ const LISTINGS = [
     watchlist: true,
     dismissed: false,
     lastChecked: "2026-07-27"
+  },
+  {
+    id: "401-n-washington-st-belchertown-ma",
+    address: "401 N Washington St",
+    town: "Belchertown",
+    state: "MA",
+    price: 449900,
+    lat: 42.2751,
+    lng: -72.4062,
+    imageUrl: "https://photos.zillowstatic.com/fp/9beaf0748b842fa27c8162e52bcfa569-cc_ft_768.webp",
+    beds: 5,
+    baths: 2,
+    sqft: 2772,
+    acres: 3.32,
+    type: "Farmhouse",
+    status: "active",
+    listedDate: "2026-07-29",
+    hvac: "none",
+    flags: ["No cooling at all — mini-splits from scratch required", "Both baths on first floor — upstairs bedrooms bathless (2 baths downstairs helps but not ideal)", "1950 build with stone foundation — inspect carefully", "Verify garage bonus space use with town before advancing"],
+    url: "https://www.zillow.com/homedetails/401-N-Washington-Rd-Belchertown-MA-01007/57004666_zpid",
+    notes: "Farmhouse on 3.32 acres — barn, garden, peach/apple trees. Both full baths + 2 BRs on first floor. 3 newly renovated BRs upstairs. Oversized 2-car garage with unfinished bonus space above — previously plumbed + electrical started, potential in-law/workshop/lapidary space. Zestimate $553,800 — priced $104k under estimated value. Taxes $5,176/yr. 42 photos, confident listing. Belchertown, Pioneer Valley. Moving fast.",
+    watchlist: true,
+    dismissed: false,
+    lastChecked: "2026-07-29"
   }
 ];
