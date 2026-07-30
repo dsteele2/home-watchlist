@@ -253,7 +253,7 @@ const LISTINGS = [
     listedDate: "2026-05-23",
     hvac: "central",
     flags: ["Septic from 2002 — 24 years old, Title V inspection required at sale", "If septic fails: replacement $15-30k — seller-paid new septic should be a condition of any offer", "Water district matters — Watertown Fire District preferred over Waterbury municipal, verify which serves this address", "First contract likely fell through on septic or inspection findings", "If backup position opens: negotiate price drop + seller-paid septic replacement", "Watch for further price reduction if current deal collapses", "68 days on market, now Accepting Backups as of 7/30"],
-    url: "https://www.zillow.com/homedetails/541-Middlebury-Road-Watertown-CT-06795/58870675_zpid/",
+    url: "https://www.zillow.com/homedetails/541-Middlebury-Rd-Watertown-CT-06795/58870675_zpid/",
     notes: "Colonial, central air. Masonry fireplace, hardwood throughout, French doors. Good separation — primary suite upstairs, finished lower level with full bath + walkout. Oil baseboard heat.",
     watchlist: true,
     dismissed: false,
