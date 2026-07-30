@@ -56,15 +56,15 @@ const LISTINGS = [
     sqft: 2427,
     acres: 1.06,
     type: "Cape",
-    status: "pending",
+    status: "contingent",
     listedDate: "2026-07-16",
     hvac: "window",
-    flags: ["Strong interest — 1,578 views / 126 saves as of day 2", "Now pending as of 7/27"],
+    flags: ["Strong interest — 1,578 views / 126 saves as of day 2", "Now pending as of 7/27", "Changed to accepting backups as of 7/30"],
     url: "https://www.zillow.com/homedetails/101-Abbey-Rd-East-Hampton-CT-06424/57853768_zpid/",
     notes: "Cape near Middletown. Main floor bed+bath, upstairs primary + 2 more beds. New septic + updated electrical. Window units only, mini-splits needed. Note: Zillow briefly showed this as off-market on 7/18 — confirmed still active; Zillow status/Zestimate can lag a few days.",
     watchlist: true,
     dismissed: false,
-    lastChecked: "2026-07-27"
+    lastChecked: "2026-07-30"
   },
   {
     id: "181-moulton-hill-rd-monson-ma",
@@ -180,12 +180,12 @@ const LISTINGS = [
     status: "pending",
     listedDate: "2026-06-07",
     hvac: "window",
-    flags: ["Accepting backups — watch for relist", "Now pending as of 7/27, no longer just contingent"],
+    flags: ["Accepting backups — watch for relist", "Now pending as of 7/27, no longer just contingent", "Confirmed under contract as of 7/30"],
     url: "https://www.zillow.com/homedetails/3-Gretl-Ln-New-Milford-CT-06776/58863029_zpid/",
     notes: "Built 1975, updated interior, refinished hardwoods. Lower level 12x15 BR + family room walkout. New furnace + HWH. Near Candlewood Lake. 2020 sale had same contingent→fall-through→relist pattern. Window units, mini-splits needed ~$18-25k.",
     watchlist: true,
     dismissed: false,
-    lastChecked: "2026-07-27"
+    lastChecked: "2026-07-30"
   },
   {
     id: "200-bucks-hill-rd-southbury-ct",
@@ -249,15 +249,15 @@ const LISTINGS = [
     sqft: 2496,
     acres: 1.04,
     type: "Colonial",
-    status: "active",
+    status: "contingent",
     listedDate: "2026-05-23",
     hvac: "central",
-    flags: [],
+    flags: ["Septic from 2002 — 24 years old, Title V inspection required at sale", "If septic fails: replacement $15-30k — seller-paid new septic should be a condition of any offer", "Water district matters — Watertown Fire District preferred over Waterbury municipal, verify which serves this address", "First contract likely fell through on septic or inspection findings", "If backup position opens: negotiate price drop + seller-paid septic replacement", "Watch for further price reduction if current deal collapses", "68 days on market, now Accepting Backups as of 7/30"],
     url: "https://www.zillow.com/homedetails/541-Middlebury-Road-Watertown-CT-06795/58870675_zpid/",
-    notes: "Masonry fireplace, hardwood throughout, French doors. Finished lower level w/ full bath + walkout. Primary suite upstairs. Oil baseboard + central air. Septic 2002 — aging. Verify water district — Watertown Fire District preferred over Waterbury system.",
+    notes: "Colonial, central air. Masonry fireplace, hardwood throughout, French doors. Good separation — primary suite upstairs, finished lower level with full bath + walkout. Oil baseboard heat.",
     watchlist: true,
     dismissed: false,
-    lastChecked: "2026-07-18"
+    lastChecked: "2026-07-30"
   },
   {
     id: "80-old-baird-rd-watertown-ct",
@@ -486,15 +486,15 @@ const LISTINGS = [
     sqft: 3456,
     acres: 1.34,
     type: "Single family",
-    status: "active",
+    status: "contingent",
     listedDate: "2026-06-20",
     hvac: "window",
-    flags: ["Window units only — mini-splits needed both levels ~$25-35k", "Taxes $9,530/yr, climbing 6-8%/yr", "Pool sold As Is / needs liner", "28 days on market, 184 saves, no contract — market pricing in AC/tax issues, watch for a drop"],
+    flags: ["Window units only — mini-splits needed both levels ~$25-35k", "Taxes $9,530/yr, climbing 6-8%/yr", "Pool sold As Is / needs liner", "28 days on market, 184 saves, no contract — market pricing in AC/tax issues, watch for a drop", "Now accepting backups as of 7/30"],
     url: "https://www.zillow.com/homedetails/436-Tiffany-Ln-Bristol-CT-06010/57704737_zpid/",
     notes: "Best in-law suite layout seen so far — lower level fully self-contained (BR, full bath, kitchen, living room, office, separate entrance). Upper level massive primary (13x19) + 3BR + 2 baths. Cul-de-sac, wooded, Cedar Lake neighborhood. Zestimate $546,300 — priced at fair value.",
     watchlist: true,
     dismissed: false,
-    lastChecked: "2026-07-18"
+    lastChecked: "2026-07-30"
   },
   {
     id: "420-lower-hampden-rd-monson-ma",
