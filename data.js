@@ -104,15 +104,15 @@ const LISTINGS = [
     sqft: 1576,
     acres: 4.6,
     type: "Single family",
-    status: "contingent",
+    status: "pending",
     listedDate: "2026-06-23",
     hvac: "none",
-    flags: ["Verify solar if it relists"],
+    flags: ["Verify solar if it relists", "Under contract as of 8/3 — removed from active consideration"],
     url: "https://www.zillow.com/homedetails/67-Bell-St-Middletown-CT-06457/57866674_zpid/",
     notes: "Good separation: main floor primary + 1BR, lower level 1BR w/ own full bath. Right in Middletown. 4.6 acres, barn/stable. Sold $248k in 2019 → $499,900 now. No central air. Unpermitted/undisclosed solar — verify owned vs leased. Taxes $8,421/yr.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-07-18"
+    dismissed: true,
+    lastChecked: "2026-08-03"
   },
   {
     id: "48-case-rd-burlington-ct",
@@ -129,15 +129,15 @@ const LISTINGS = [
     sqft: 1929,
     acres: 1.02,
     type: "Colonial",
-    status: "active",
+    status: "pending",
     listedDate: "2026-06-18",
     hvac: "central",
-    flags: ["Deal fell through — ask why"],
+    flags: ["Deal fell through — ask why", "Under contract as of 8/3 — removed from active consideration"],
     url: "https://www.zillow.com/homedetails/48-Case-Rd-Burlington-CT-06013/57706189_zpid/",
     notes: "2BR/2BA main floor — natural two-person separation. 2BR/1BA upstairs bonus space. Oil forced air + central air. Solar — verify owned vs PPA/leased. Reactivated after prior contract fell through.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-07-18"
+    dismissed: true,
+    lastChecked: "2026-08-03"
   },
   {
     id: "235-middle-haddam-rd-east-hampton-ct",
@@ -180,12 +180,12 @@ const LISTINGS = [
     status: "pending",
     listedDate: "2026-06-07",
     hvac: "window",
-    flags: ["Accepting backups — watch for relist", "Now pending as of 7/27, no longer just contingent", "Confirmed under contract as of 7/30"],
+    flags: ["Accepting backups — watch for relist", "Now pending as of 7/27, no longer just contingent", "Confirmed under contract as of 7/30", "Under contract as of 8/3 — removed from active consideration"],
     url: "https://www.zillow.com/homedetails/3-Gretl-Ln-New-Milford-CT-06776/58863029_zpid/",
     notes: "Built 1975, updated interior, refinished hardwoods. Lower level 12x15 BR + family room walkout. New furnace + HWH. Near Candlewood Lake. 2020 sale had same contingent→fall-through→relist pattern. Window units, mini-splits needed ~$18-25k.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-07-30"
+    dismissed: true,
+    lastChecked: "2026-08-03"
   },
   {
     id: "200-bucks-hill-rd-southbury-ct",
