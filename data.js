@@ -655,15 +655,15 @@ const LISTINGS = [
     sqft: 1958,
     acres: 1,
     type: "Duplex (2-family, converted)",
-    status: "active",
+    status: "pending",
     listedDate: "2026-07-31",
     hvac: "none",
-    flags: ["No cooling at all — mini-splits from scratch needed in both units ~$25-35k", "Needs cosmetic updating", "Partial basement only — limited workshop space", "1956 single-level build"],
+    flags: ["No cooling at all — mini-splits from scratch needed in both units ~$25-35k", "Needs cosmetic updating", "Partial basement only — limited workshop space", "1956 single-level build", "Under contract as of 8/5 — removed from active consideration"],
     url: "https://www.zillow.com/homedetails/12-Stage-Rd-Westhampton-MA-01027/57029020_zpid",
     notes: "Legal two-family — 2BR per unit, genuine separation. New 4BR septic. Newer furnace, oil tank, well pressure tank, solar hot water. Attached greenhouse + beautiful gardens. Flexible floor plan (non-load bearing walls). Very private, wooded. Near Northampton. Taxes $5,206/yr. Zestimate $384,900 — priced $35k under. Brand new listing.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-08-01"
+    dismissed: true,
+    lastChecked: "2026-08-05"
   },
   {
     id: "73-glendale-rd-hampden-ma",
