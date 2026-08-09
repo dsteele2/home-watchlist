@@ -408,7 +408,8 @@ const LISTINGS = [
     address: "1511 Dunhamtown Brimfield Rd",
     town: "Brimfield",
     state: "MA",
-    price: 499900,
+    price: 469900,
+    originalPrice: 499900,
     lat: 42.1237,
     lng: -72.2081,
     imageUrl: "https://photos.zillowstatic.com/fp/f236d1adf3f96a04e14aa023813f7983-cc_ft_960.webp",
@@ -420,11 +421,12 @@ const LISTINGS = [
     status: "active",
     listedDate: "2026-04-15",
     hvac: "none",
-    flags: ["Need ~$100k drop"],
+    flags: ["Need ~$100k drop", "$30k price cut on 8/6: $499,900 → $469,900"],
     url: "https://www.zillow.com/homedetails/1511-Dunhamtown-Brimfield-Rd-Brimfield-MA-01010/56990110_zpid/",
     notes: "Natural floor split. Stream, solar panels, deck. Full 1993 time capsule — est. $60-80k cosmetic work needed. Oil baseboard, no ductwork, mini-splits needed. Watch for drop to ~$399,900.",
     watchlist: true,
-    dismissed: false
+    dismissed: false,
+    lastChecked: "2026-08-08"
   },
   {
     id: "763-stony-hill-rd-wilbraham-ma",
@@ -710,5 +712,28 @@ const LISTINGS = [
     watchlist: true,
     dismissed: false,
     lastChecked: "2026-08-04"
+  },
+  {
+    id: "102-coy-hill-rd-west-warren-ma",
+    address: "102 Coy Hill Rd",
+    town: "West Warren",
+    state: "MA",
+    price: 429000,
+    lat: 42.2074,
+    lng: -72.2224,
+    imageUrl: "https://photos.zillowstatic.com/fp/104f5945061f17d9f28ae45704a9e6cb-cc_ft_768.webp",
+    beds: 4,
+    baths: 2,
+    sqft: 2648,
+    acres: 1.27,
+    type: "Ranch w/ in-law suite",
+    status: "active",
+    hvac: "minisplit",
+    flags: ["63% flip markup in 14 months ($263k → $429k)", "Verify “legally permitted” in-law suite status with Warren building dept before advancing", "In-law suite cooling not mentioned — confirm mini-splits cover it or if more are needed", "Tepid engagement possibly location/season related (August doldrums)"],
+    url: "https://www.zillow.com/homedetails/102-Coy-Hill-Rd-West-Warren-MA-01083/57665273_zpid/",
+    notes: "Legally permitted in-law suite — separate entrance, separate utilities, separate electric meter, full kitchen, full bath — best separation setup on the list. Mini-splits in main home. 24x24 detached garage (2009) — workshop potential. Ware hospital 4 miles away. Town water and sewer. Finished basement 1,104 sqft. Taxes $4,156/yr — very low. Listing photos are AI virtual staging of the empty house, not concealing damage.",
+    watchlist: true,
+    dismissed: false,
+    lastChecked: "2026-08-08"
   }
 ];
