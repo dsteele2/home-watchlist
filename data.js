@@ -735,5 +735,29 @@ const LISTINGS = [
     watchlist: true,
     dismissed: false,
     lastChecked: "2026-08-08"
+  },
+  {
+    id: "259-greenwich-rd-ware-ma",
+    address: "259 Greenwich Rd",
+    town: "Ware",
+    state: "MA",
+    price: 499000,
+    lat: 42.2626,
+    lng: -72.2454,
+    imageUrl: "https://photos.zillowstatic.com/fp/a5b267023c281ae401fd36f2fc626682-sc_1776_1184.webp",
+    beds: 3,
+    baths: 2,
+    sqft: 1638,
+    acres: 3.03,
+    type: "Cape",
+    status: "active",
+    listedDate: "2026-08-01",
+    hvac: "none",
+    flags: ["No AC — baseboard oil + wood stove only", "Mini-splits from scratch required ~$18-25k, complex with vaulted ceilings", "Bought $350k Jan 2021 → $499k Aug 2026 (42.6% markup)", "No garage", "Partner prefers ADU setup — this doesn't have one", "Watch if it sits; not an immediate jump-on-it given partner's ADU preference"],
+    url: "https://www.zillow.com/homedetails/259-Greenwich-Rd-Ware-MA-01082/57026778_zpid",
+    notes: "Stunning waterfront cape — brook access to Hardwick Pond, kayak from backyard. Gorgeous primary suite upstairs (19x20 + private bath + wood ceiling). 2BR/1BA on main floor — solid separation. Living room 18x28, custom kitchen with island/quartz/gas range. Full walkout basement — insulation boards mounted, unfinished but clearly finishable and structurally solid. 3.03 wooded acres, terraced stone gardens, fire pit, wraparound deck. Red barn/shed on property. Taxes $5,274/yr. Ware, hospital 4 miles. Flood risk low (First Street 1/10, no FEMA high-risk designation). 43 listing photos — confident listing.",
+    watchlist: true,
+    dismissed: false,
+    lastChecked: "2026-08-10"
   }
 ];
