@@ -393,15 +393,15 @@ const LISTINGS = [
     sqft: 2616,
     acres: 9.11,
     type: "Single family",
-    status: "pending",
+    status: "sold",
     listedDate: "2026-06-10",
     hvac: "none",
-    flags: ["Panel upgrade + mini-splits needed", "Now pending as of 7/27"],
+    flags: ["Panel upgrade + mini-splits needed", "Now pending as of 7/27", "SOLD as of 8/12"],
     url: "https://www.zillow.com/homedetails/1130-Main-Dalton-Rd-Windsor-MA-01270/56820467_zpid/",
     notes: "Best acreage on the list — 9.11 acres. $182/sqft, taxes only $3,590/yr. Brook, mountain views, new deck, refinished hardwoods. 1BR/1BA first floor, primary + 2BR/1BA second floor. Dalton ~17 min, Pittsfield ~25-30 min. Budget $25-40k: mini-splits + 100→200-amp panel upgrade required.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-07-27"
+    dismissed: true,
+    lastChecked: "2026-08-12"
   },
   {
     id: "1511-dunhamtown-brimfield-rd-brimfield-ma",
@@ -562,14 +562,14 @@ const LISTINGS = [
     sqft: 2288,
     acres: 3.3,
     type: "Duplex (2-family)",
-    status: "active",
+    status: "pending",
     hvac: "none",
-    flags: ["Only 3 photos — may be hiding condition issues", "All electric baseboard heat, no AC listed at all — mini-splits both units ~$30-40k", "Slab foundation — no basement, limited hobby/workshop space", "Relisted with new MLS number after being pulled (orig. Sept 2025 $489,900, pulled April 2026) — second attempt", "1,069 views but only 52 saves — something may be deterring serious buyers"],
+    flags: ["Only 3 photos — may be hiding condition issues", "All electric baseboard heat, no AC listed at all — mini-splits both units ~$30-40k", "Slab foundation — no basement, limited hobby/workshop space", "Relisted with new MLS number after being pulled (orig. Sept 2025 $489,900, pulled April 2026) — second attempt", "1,069 views but only 52 saves — something may be deterring serious buyers", "Now pending as of 8/12"],
     url: "https://www.zillow.com/homedetails/151-Pantry-Rd-Hatfield-MA-01038/57015733_zpid/",
     notes: "True side-by-side duplex, no current tenants. Just over the Northampton line — prime Pioneer Valley location. 3.3 wooded acres, set back from road. Separate electric per unit. Taxes $5,633/yr. Zestimate $520,400 — priced $60k under estimated value.",
     watchlist: true,
     dismissed: false,
-    lastChecked: "2026-07-18"
+    lastChecked: "2026-08-12"
   },
   {
     id: "23-s-mount-holyoke-dr-amherst-ma",
@@ -586,14 +586,14 @@ const LISTINGS = [
     sqft: 1773,
     acres: 1.27,
     type: "Cape",
-    status: "active",
+    status: "pending",
     hvac: "minisplit",
-    flags: ["Former rental history — likely dated condition", "Very few listing photos — possibly hiding something", "No mention of updates", "Taxes $8,822/yr and climbing (Amherst premium)", "1964 build — mechanicals age unknown", "Will move fast in Amherst market", "$40k price cut on 8/4: $469,000 → $429,000"],
+    flags: ["Former rental history — likely dated condition", "Very few listing photos — possibly hiding something", "No mention of updates", "Taxes $8,822/yr and climbing (Amherst premium)", "1964 build — mechanicals age unknown", "Will move fast in Amherst market", "$40k price cut on 8/4: $469,000 → $429,000", "Now pending as of 8/12"],
     url: "https://www.zillow.com/homedetails/23-S-Mount-Holyoke-Dr-Amherst-MA-01002/56258132_zpid",
     notes: "Perfect floor separation — 2BR/1BA first floor, 2BR/1BA second floor. Mini-splits already installed (ductless). Forced air oil heat. 2 fireplaces, hardwood floors. Walkout unfinished basement. 1.27 acres, prime Pioneer Valley location. Priced $89k under Zestimate ($558,300) — unusual gap.",
     watchlist: true,
     dismissed: false,
-    lastChecked: "2026-08-04"
+    lastChecked: "2026-08-12"
   },
   {
     id: "401-n-washington-st-belchertown-ma",
@@ -704,14 +704,14 @@ const LISTINGS = [
     sqft: 1900,
     acres: 16.12,
     type: "Single family",
-    status: "active",
+    status: "pending",
     hvac: "central",
-    flags: ["1933 build — exceeds 75-year rule by 18 years", "Stone/block foundation with partial crawl space — moisture/structural inspection critical", "Partial crawl only, no real workshop/basement space", "$355k → $499,413 in 2.5 years (41% markup) on modest garage/driveway improvements — cosmetic work by prior owner", "Oddly specific price suggests payoff-based rather than market-based pricing", "19 days, 128 saves, no contract — age/foundation giving buyers pause"],
+    flags: ["1933 build — exceeds 75-year rule by 18 years", "Stone/block foundation with partial crawl space — moisture/structural inspection critical", "Partial crawl only, no real workshop/basement space", "$355k → $499,413 in 2.5 years (41% markup) on modest garage/driveway improvements — cosmetic work by prior owner", "Oddly specific price suggests payoff-based rather than market-based pricing", "19 days, 128 saves, no contract — age/foundation giving buyers pause", "Now pending as of 8/12"],
     url: "https://www.zillow.com/homedetails/129-Upper-Hampden-Rd-Monson-MA-01057/193645141_zpid",
     notes: "Perfect layout — 2BR/1BA first floor, primary suite + en-suite full bath second floor. Central air, 200+ amp + generator connection. Newly renovated garage (all new electrical). 16.12 level acres — trails, flat backyard, exceptional land. Monson location. Taxes $4,880/yr.",
     watchlist: true,
     dismissed: false,
-    lastChecked: "2026-08-04"
+    lastChecked: "2026-08-12"
   },
   {
     id: "102-coy-hill-rd-west-warren-ma",
