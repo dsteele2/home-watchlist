@@ -759,7 +759,6 @@ const LISTINGS = [
     watchlist: true,
     dismissed: false,
     lastChecked: "2026-08-10"
-<<<<<<< HEAD
   },
   {
     id: "276-old-gilbertville-rd-ware-ma",
@@ -783,7 +782,5 @@ const LISTINGS = [
     watchlist: true,
     dismissed: false,
     lastChecked: "2026-08-15"
-=======
->>>>>>> 683a49dd63b4028447b2090c738ed136756ad6f1
   }
 ];
