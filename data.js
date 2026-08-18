@@ -776,11 +776,36 @@ const LISTINGS = [
     type: "Single family",
     status: "active",
     hvac: "central",
-    flags: [],
+    flags: ["Offer fell through 8/17: no HVAC ducts in basement or attic, caught during the virtual showing (not visible in listing photos — no AC/condenser pic, and the stove pipe hole had been covered with painter's tape after listing photos were taken). Condenser also 27 years old, due for replacement. Offer reflected these issues; seller countered at full list, no movement."],
     url: "https://www.zillow.com/homedetails/276-Old-Gilbertville-Rd-Ware-MA-01082/57026767_zpid",
     notes: "Excellent layout — 3BR/1BA main floor (1 BR may be laundry/nonconforming), lower level suite (BR 11x13 + full bath 12x12 + rec room 29x26), upper loft/bonus room (28x11 + balcony) — perfect music/make space for partner. Central air. 7.74 acres, 7-stall barn + garage/workshop. Cathedral ceilings, new kitchen, refinished hardwoods, big deck. Taxes ~$4,900/yr.",
     watchlist: true,
+    dismissed: true,
+    lastChecked: "2026-08-17"
+  },
+  {
+    id: "79-pine-ridge-rd-montgomery-ma",
+    address: "79 Pine Ridge Rd",
+    town: "Montgomery",
+    state: "MA",
+    price: 525000,
+    originalPrice: 560000,
+    lat: 42.1373,
+    lng: -72.8137,
+    imageUrl: "https://photos.zillowstatic.com/fp/85aceb1fd56893739f9dd1e1edd1aedd-cc_ft_1536.jpg",
+    beds: 4,
+    baths: 3,
+    sqft: 2324,
+    acres: 2.82,
+    type: "Contemporary",
+    status: "active",
+    listedDate: "2026-05-29",
+    hvac: "central",
+    flags: ["Only 14 photos — likely dated 1978 interior", "Nearly 1 year on market across 2 MLS numbers ($588k → current)", "DOM reset in May 2026 after being pulled Dec 2025", "Sitting at top of street comps", "Partial basement only", "Worth seeing in person given partner's interest — photos don't tell the full story here", "Confirmed cuts: $560k (5/29) → $549k (6/12) → $539k (7/8) → $525k (7/29)"],
+    url: "https://www.zillow.com/homedetails/79-Pine-Ridge-Rd-Montgomery-MA-01085/59246134_zpid/",
+    notes: "Contemporary on 2.82 wooded acres abutting 1,200+ acres protected wildlife — exceptional privacy. Perfect separation: main floor primary suite (en-suite + walk-in closet) + 2BRs + full bath; upstairs 4th BR with skylight, cathedral ceiling, private full bath. Central air. Floor-to-ceiling fieldstone fireplace, vaulted ceilings, exposed beams, hardwood floors. 2-car garage. Taxes $5,211/yr. Montgomery near Westfield/I-90. Seller W/Participate = motivated, open to creative financing/negotiation.",
+    watchlist: true,
     dismissed: false,
-    lastChecked: "2026-08-15"
+    lastChecked: "2026-08-17"
   }
 ];
