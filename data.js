@@ -153,15 +153,15 @@ const LISTINGS = [
     sqft: 1923,
     acres: 1.2,
     type: "Log Cabin",
-    status: "contingent",
+    status: "sold",
     listedDate: "2026-06-13",
     hvac: "central",
-    flags: ["Run permit check first"],
+    flags: ["Run permit check first", "SOLD as of 8/18"],
     url: "https://www.zillow.com/homedetails/235-Middle-Haddam-Rd-E-Middle-Haddam-CT-06456/463217927_zpid/",
     notes: "Log cabin construction, two stone fireplaces, wraparound porch. Detached 2-car garage w/ loft + heater — workshop potential. Next to Hurd State Park, ~15-18 min to Middletown. Main level 2BR/1BA + upper 2BR/1BA. Central air + whole-house Generac. Taxes $7,400/yr. Accepting backups.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-07-18"
+    dismissed: true,
+    lastChecked: "2026-08-18"
   },
   {
     id: "3-gretl-ln-new-milford-ct",
