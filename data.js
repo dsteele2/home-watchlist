@@ -288,7 +288,8 @@ const LISTINGS = [
     address: "392 Boston Neck Rd",
     town: "Suffield",
     state: "CT",
-    price: 399900,
+    price: 349900,
+    originalPrice: 399900,
     lat: 41.9812,
     lng: -72.6482,
     imageUrl: "https://photos.zillowstatic.com/fp/1b4bbf0b5d50fdc925ec594668fc17fc-cc_ft_1536.jpg",
@@ -300,12 +301,12 @@ const LISTINGS = [
     status: "active",
     listedDate: "2026-03-15",
     hvac: "central",
-    flags: ["1755 origin — inspect carefully"],
+    flags: ["1755 origin — inspect carefully", "$50K cut 8/18: $399.9k → $349.9k"],
     url: "https://www.zillow.com/homedetails/392-Boston-Neck-Rd-Suffield-CT-06078/59024451_zpid/",
     notes: "Built 1755 original, substantially renovated. $40k drop — likely long-term family estate. Clean permit history — all Complete in ViewMyPermitCT. Oil hot water + central air.",
     watchlist: true,
     dismissed: false,
-    lastChecked: "2026-07-18"
+    lastChecked: "2026-08-22"
   },
   {
     id: "76-clark-hill-rd-prospect-ct",
@@ -336,7 +337,8 @@ const LISTINGS = [
     address: "55 Southampton Rd",
     town: "Westhampton",
     state: "MA",
-    price: 525000,
+    price: 499900,
+    originalPrice: 525000,
     lat: 42.2626,
     lng: -72.7534,
     imageUrl: "https://photos.zillowstatic.com/fp/fcb7c64326c1649d88a9b827b3040588-cc_ft_960.webp",
@@ -348,11 +350,12 @@ const LISTINGS = [
     status: "active",
     listedDate: "2026-06-20",
     hvac: "window",
-    flags: ["Verify ownership history"],
+    flags: ["Verify ownership history", "$25.1K cut 8/21: $525k → $499.9k"],
     url: "https://www.zillow.com/homedetails/55-Southampton-Rd-Westhampton-MA-01027/57028999_zpid/",
     notes: "Brook access, greenhouse, gardens, dog run. 2BR main floor incl. primary suite + 1BR upstairs — reasonable separation. Taxes only $5,572/yr, near Northampton. Electric heat + pellet stoves, window units only. Listed 2018 at $339,900 (didn't sell), no recorded sale since — ask agent about ownership gap.",
     watchlist: true,
-    dismissed: false
+    dismissed: false,
+    lastChecked: "2026-08-22"
   },
   {
     id: "68-lyon-rd-west-brookfield-ma",
@@ -479,7 +482,8 @@ const LISTINGS = [
     address: "436 Tiffany Ln",
     town: "Bristol",
     state: "CT",
-    price: 545000,
+    price: 499900,
+    originalPrice: 545000,
     lat: 41.6718,
     lng: -72.9493,
     imageUrl: "https://photos.zillowstatic.com/fp/085e36bfd2103c57462d993fc30b510e-cc_ft_960.webp",
@@ -491,12 +495,12 @@ const LISTINGS = [
     status: "contingent",
     listedDate: "2026-06-20",
     hvac: "window",
-    flags: ["Window units only — mini-splits needed both levels ~$25-35k", "Taxes $9,530/yr, climbing 6-8%/yr", "Pool sold As Is / needs liner", "28 days on market, 184 saves, no contract — market pricing in AC/tax issues, watch for a drop", "Now accepting backups as of 7/30"],
+    flags: ["Window units only — mini-splits needed both levels ~$25-35k", "Taxes $9,530/yr, climbing 6-8%/yr", "Pool sold As Is / needs liner", "28 days on market, 184 saves, no contract — market pricing in AC/tax issues, watch for a drop", "Now accepting backups as of 7/30", "$20.1K cut 8/20 per Zillow notification, but math doesn't chain cleanly from $545k — likely an untracked intermediate cut"],
     url: "https://www.zillow.com/homedetails/436-Tiffany-Ln-Bristol-CT-06010/57704737_zpid/",
     notes: "Best in-law suite layout seen so far — lower level fully self-contained (BR, full bath, kitchen, living room, office, separate entrance). Upper level massive primary (13x19) + 3BR + 2 baths. Cul-de-sac, wooded, Cedar Lake neighborhood. Zestimate $546,300 — priced at fair value.",
     watchlist: true,
     dismissed: false,
-    lastChecked: "2026-07-30"
+    lastChecked: "2026-08-22"
   },
   {
     id: "420-lower-hampden-rd-monson-ma",
@@ -527,7 +531,7 @@ const LISTINGS = [
     address: "577-579 Old Greenwich Plains Rd",
     town: "Hardwick",
     state: "MA",
-    price: 525000,
+    price: 500000,
     originalPrice: 550000,
     lat: 42.3468,
     lng: -72.1998,
@@ -540,12 +544,12 @@ const LISTINGS = [
     status: "active",
     listedDate: "2026-06-03",
     hvac: "window",
-    flags: ["Window units only — mini-splits both units ~$30-40k", "Baseboard propane heat", "Tenant in unit 2, $1,200/mo below market, 6+ yrs, month-to-month — 30 days notice sufficient in MA for owner-occupant, handle carefully", "Walk score 0 — car dependent"],
+    flags: ["Window units only — mini-splits both units ~$30-40k", "Baseboard propane heat", "Tenant in unit 2, $1,200/mo below market, 6+ yrs, month-to-month — 30 days notice sufficient in MA for owner-occupant, handle carefully", "Walk score 0 — car dependent", "$25K cut 7/31: $525k → $500k"],
     url: "https://www.zillow.com/homedetails/577-579-Old-Greenwich-Plains-Rd-Hardwick-MA-01082/173774155_zpid/",
     notes: "True side-by-side duplex — perfect separation, each unit fully self-contained (2BR/1.5BA, full basement, attached garage, deck). Lowest taxes on the entire list at $4,388/yr. Wooded 1.48 acres, well-maintained. Ware ~10-15 min. Already had a $25k price drop. 2,318 sqft + 1,140 sqft finished basement.",
     watchlist: true,
     dismissed: false,
-    lastChecked: "2026-07-18"
+    lastChecked: "2026-08-22"
   },
   {
     id: "151-pantry-rd-hatfield-ma",
@@ -788,7 +792,7 @@ const LISTINGS = [
     address: "79 Pine Ridge Rd",
     town: "Montgomery",
     state: "MA",
-    price: 525000,
+    price: 515000,
     originalPrice: 560000,
     lat: 42.1373,
     lng: -72.8137,
@@ -801,11 +805,11 @@ const LISTINGS = [
     status: "active",
     listedDate: "2026-05-29",
     hvac: "central",
-    flags: ["Only 14 photos — likely dated 1978 interior", "Nearly 1 year on market across 2 MLS numbers ($588k → current)", "DOM reset in May 2026 after being pulled Dec 2025", "Sitting at top of street comps", "Partial basement only", "Worth seeing in person given partner's interest — photos don't tell the full story here", "Confirmed cuts: $560k (5/29) → $549k (6/12) → $539k (7/8) → $525k (7/29)"],
+    flags: ["Only 14 photos — likely dated 1978 interior", "Nearly 1 year on market across 2 MLS numbers ($588k → current)", "DOM reset in May 2026 after being pulled Dec 2025", "Sitting at top of street comps", "Partial basement only", "Worth seeing in person given partner's interest — photos don't tell the full story here", "Confirmed cuts: $560k (5/29) → $549k (6/12) → $539k (7/8) → $525k (7/29)", "$10K cut 8/18: $525k → $515k"],
     url: "https://www.zillow.com/homedetails/79-Pine-Ridge-Rd-Montgomery-MA-01085/59246134_zpid/",
     notes: "Contemporary on 2.82 wooded acres abutting 1,200+ acres protected wildlife — exceptional privacy. Perfect separation: main floor primary suite (en-suite + walk-in closet) + 2BRs + full bath; upstairs 4th BR with skylight, cathedral ceiling, private full bath. Central air. Floor-to-ceiling fieldstone fireplace, vaulted ceilings, exposed beams, hardwood floors. 2-car garage. Taxes $5,211/yr. Montgomery near Westfield/I-90. Seller W/Participate = motivated, open to creative financing/negotiation.",
     watchlist: true,
     dismissed: false,
-    lastChecked: "2026-08-17"
+    lastChecked: "2026-08-22"
   }
 ];
