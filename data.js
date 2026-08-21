@@ -249,15 +249,15 @@ const LISTINGS = [
     sqft: 2496,
     acres: 1.04,
     type: "Colonial",
-    status: "contingent",
+    status: "withdrawn",
     listedDate: "2026-05-23",
     hvac: "central",
-    flags: ["Septic from 2002 — 24 years old, Title V inspection required at sale", "If septic fails: replacement $15-30k — seller-paid new septic should be a condition of any offer", "Water district matters — Watertown Fire District preferred over Waterbury municipal, verify which serves this address", "First contract likely fell through on septic or inspection findings", "If backup position opens: negotiate price drop + seller-paid septic replacement", "Watch for further price reduction if current deal collapses", "68 days on market, now Accepting Backups as of 7/30"],
+    flags: ["Septic from 2002 — 24 years old, Title V inspection required at sale", "If septic fails: replacement $15-30k — seller-paid new septic should be a condition of any offer", "Water district matters — Watertown Fire District preferred over Waterbury municipal, verify which serves this address", "First contract likely fell through on septic or inspection findings", "If backup position opens: negotiate price drop + seller-paid septic replacement", "Watch for further price reduction if current deal collapses", "68 days on market, now Accepting Backups as of 7/30", "Seller withdrew the listing as of 8/20 — gave up on selling"],
     url: "https://www.zillow.com/homedetails/541-Middlebury-Rd-Watertown-CT-06795/58870675_zpid/",
     notes: "Colonial, central air. Masonry fireplace, hardwood throughout, French doors. Good separation — primary suite upstairs, finished lower level with full bath + walkout. Oil baseboard heat.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-07-30"
+    dismissed: true,
+    lastChecked: "2026-08-20"
   },
   {
     id: "80-old-baird-rd-watertown-ct",
@@ -750,15 +750,15 @@ const LISTINGS = [
     sqft: 1638,
     acres: 3.03,
     type: "Cape",
-    status: "active",
+    status: "pending",
     listedDate: "2026-08-01",
     hvac: "none",
-    flags: ["No AC — baseboard oil + wood stove only", "Mini-splits from scratch required ~$18-25k, complex with vaulted ceilings", "Bought $350k Jan 2021 → $499k Aug 2026 (42.6% markup)", "No garage", "Partner prefers ADU setup — this doesn't have one", "Watch if it sits; not an immediate jump-on-it given partner's ADU preference"],
+    flags: ["No AC — baseboard oil + wood stove only", "Mini-splits from scratch required ~$18-25k, complex with vaulted ceilings", "Bought $350k Jan 2021 → $499k Aug 2026 (42.6% markup)", "No garage", "Partner prefers ADU setup — this doesn't have one", "Watch if it sits; not an immediate jump-on-it given partner's ADU preference", "Now pending as of 8/20"],
     url: "https://www.zillow.com/homedetails/259-Greenwich-Rd-Ware-MA-01082/57026778_zpid",
     notes: "Stunning waterfront cape — brook access to Hardwick Pond, kayak from backyard. Gorgeous primary suite upstairs (19x20 + private bath + wood ceiling). 2BR/1BA on main floor — solid separation. Living room 18x28, custom kitchen with island/quartz/gas range. Full walkout basement — insulation boards mounted, unfinished but clearly finishable and structurally solid. 3.03 wooded acres, terraced stone gardens, fire pit, wraparound deck. Red barn/shed on property. Taxes $5,274/yr. Ware, hospital 4 miles. Flood risk low (First Street 1/10, no FEMA high-risk designation). 43 listing photos — confident listing.",
     watchlist: true,
     dismissed: false,
-    lastChecked: "2026-08-10"
+    lastChecked: "2026-08-20"
   },
   {
     id: "276-old-gilbertville-rd-ware-ma",
