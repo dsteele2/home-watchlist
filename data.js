@@ -835,5 +835,28 @@ const LISTINGS = [
     watchlist: true,
     dismissed: false,
     lastChecked: "2026-08-24"
+  },
+  {
+    id: "70-high-st-monson-ma",
+    address: "70 High St",
+    town: "Monson",
+    state: "MA",
+    price: 479000,
+    originalPrice: 499000,
+    lat: 42.0995,
+    lng: -72.3162,
+    beds: 4,
+    baths: 4,
+    sqft: 2392,
+    acres: 0.57,
+    type: "Colonial",
+    status: "active",
+    hvac: "window",
+    flags: ["Electric heat + window units — mini-splits needed", "0.57 acres (small but wooded setting feels larger)", "Corner lot", "Solar ownership/type unconfirmed — verify owned vs leased, and whether \"active solar for heating\" means thermal or PV", "$20k cut on 8/19 suggests some market hesitancy"],
+    url: "https://www.zillow.com/homedetails/70-High-St-Monson-MA-01057/193647283_zpid",
+    notes: "Distinctive colonial on wooded hillside — wraparound dormers, partner loves it. Genuine separation: primary suite (cathedral ceiling, walk-in closet, balcony, en-suite full bath) + \"second master\" BR with own full bath. 2 additional BRs. Finished basement. Garage under main level. Large deck off second floor, balconies. Public water + sewer (no septic). 220V electric. Monson location.",
+    watchlist: true,
+    dismissed: false,
+    lastChecked: "2026-08-25"
   }
 ];
