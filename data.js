@@ -225,15 +225,15 @@ const LISTINGS = [
     sqft: 2148,
     acres: 1.09,
     type: "Cape",
-    status: "active",
+    status: "withdrawn",
     listedDate: "2026-06-05",
     hvac: "central",
-    flags: ["Check layout — photos now live"],
+    flags: ["Check layout — photos now live", "REMOVED 8/24: Off market — seller gave up after a $40k price drop"],
     url: "https://www.zillow.com/homedetails/143-Belleview-Ave-Southington-CT-06489/174097245_zpid/",
     notes: "Built 1954, 1.09 acres. Natural gas + central air — best fuel combo. All bedrooms upstairs — layout concern for two-person separation.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-07-18"
+    dismissed: true,
+    lastChecked: "2026-08-24"
   },
   {
     id: "541-middlebury-rd-watertown-ct",
@@ -301,12 +301,12 @@ const LISTINGS = [
     status: "active",
     listedDate: "2026-03-15",
     hvac: "central",
-    flags: ["1755 origin — inspect carefully", "$50K cut 8/18: $399.9k → $349.9k"],
+    flags: ["1755 origin — inspect carefully", "$50K cut 8/18: $399.9k → $349.9k", "REMOVED 8/24: Partner doesn't love it"],
     url: "https://www.zillow.com/homedetails/392-Boston-Neck-Rd-Suffield-CT-06078/59024451_zpid/",
     notes: "Built 1755 original, substantially renovated. $40k drop — likely long-term family estate. Clean permit history — all Complete in ViewMyPermitCT. Oil hot water + central air.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-08-22"
+    dismissed: true,
+    lastChecked: "2026-08-24"
   },
   {
     id: "76-clark-hill-rd-prospect-ct",
@@ -325,12 +325,12 @@ const LISTINGS = [
     status: "pending",
     listedDate: "2026-02-15",
     hvac: "central",
-    flags: ["Now pending"],
+    flags: ["Now pending", "REMOVED 8/24: Pending, removed from active consideration"],
     url: "https://www.zillow.com/homedetails/76-Clark-Hill-Rd-Prospect-CT-06712/57985177_zpid/",
     notes: "Level lot, 2+ acres, 2-car garage, 3,150 sqft — needs renovation. Oil hot air + central air. Sitting on market.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-07-18"
+    dismissed: true,
+    lastChecked: "2026-08-24"
   },
   {
     id: "55-southampton-rd-westhampton-ma",
@@ -350,12 +350,12 @@ const LISTINGS = [
     status: "active",
     listedDate: "2026-06-20",
     hvac: "window",
-    flags: ["Verify ownership history", "$25.1K cut 8/21: $525k → $499.9k"],
+    flags: ["Verify ownership history", "$25.1K cut 8/21: $525k → $499.9k", "REMOVED 8/24: Partner doesn't love the location"],
     url: "https://www.zillow.com/homedetails/55-Southampton-Rd-Westhampton-MA-01027/57028999_zpid/",
     notes: "Brook access, greenhouse, gardens, dog run. 2BR main floor incl. primary suite + 1BR upstairs — reasonable separation. Taxes only $5,572/yr, near Northampton. Electric heat + pellet stoves, window units only. Listed 2018 at $339,900 (didn't sell), no recorded sale since — ask agent about ownership gap.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-08-22"
+    dismissed: true,
+    lastChecked: "2026-08-24"
   },
   {
     id: "68-lyon-rd-west-brookfield-ma",
@@ -375,12 +375,12 @@ const LISTINGS = [
     status: "active",
     listedDate: "2026-06-14",
     hvac: "none",
-    flags: ["Not move-in ready — bare subfloor, unfinished drywall in photos", "Electric heat — needs full heat pump/mini-split overhaul ~$20-30k", "Odd exterior aesthetic", "68+ days on market even after cuts — watch if others look and pass to gauge hidden issues", "$65k cut on 7/28 ($495k → $430k) — finally in consideration range"],
+    flags: ["Not move-in ready — bare subfloor, unfinished drywall in photos", "Electric heat — needs full heat pump/mini-split overhaul ~$20-30k", "Odd exterior aesthetic", "68+ days on market even after cuts — watch if others look and pass to gauge hidden issues", "$65k cut on 7/28 ($495k → $430k) — finally in consideration range", "Will take a ton of cash to fix up. If it drops under $400k, might be interested."],
     url: "https://www.zillow.com/homedetails/68-Lyon-Rd-West-Brookfield-MA-01585/57673905_zpid/",
     notes: "ADU-style layout — upper level 3BR + half bath + kitchen/living, lower level BR + full bath + kitchenette + 2 bonus rooms. Heated 3-car detached garage — excellent workshop/studio potential. Ware 9 min. Taxes $3,866/yr — one of the lowest on the list.",
     watchlist: true,
     dismissed: false,
-    lastChecked: "2026-07-28"
+    lastChecked: "2026-08-24"
   },
   {
     id: "1130-main-dalton-rd-windsor-ma",
@@ -448,11 +448,12 @@ const LISTINGS = [
     status: "active",
     listedDate: "2025-12-01",
     hvac: "none",
-    flags: ["Bundle target — watch prices"],
+    flags: ["Bundle target — watch prices", "No longer partner's favorite, but staying on the list — especially worth revisiting if the price drops further"],
     url: "https://www.zillow.com/homedetails/763-Stony-Hill-Rd-Wilbraham-MA-01095/57000909_zpid/",
     notes: "Bungalow + detached studio w/ own kitchen, bath & laundry. 225+ days on market, low save ratio. Partner's top choice as a bundle: 763 ($485k) + adjacent 767 lot ($215k) = $700k combined ask. Target bundle price $560k — both sitting, seller motivated. Oil forced air + electric, no central air, mini-splits est. $15-25k.",
     watchlist: true,
-    dismissed: false
+    dismissed: false,
+    lastChecked: "2026-08-24"
   },
   {
     id: "100-heritage-dr-glastonbury-ct",
@@ -470,12 +471,12 @@ const LISTINGS = [
     type: "Ranch",
     status: "pending",
     hvac: "none",
-    flags: ["Taxes $9,104/yr and climbing — ~$10k within 2 years at current rate", "Baseboard hot water, no ductwork — mini-splits from scratch ~$18-25k", "78.9% markup since 2019 ($289k → $517k)", "Market will likely decide this one quickly", "Now pending as of 7/27 — expected, market decided quickly"],
+    flags: ["Taxes $9,104/yr and climbing — ~$10k within 2 years at current rate", "Baseboard hot water, no ductwork — mini-splits from scratch ~$18-25k", "78.9% markup since 2019 ($289k → $517k)", "Market will likely decide this one quickly", "Now pending as of 7/27 — expected, market decided quickly", "REMOVED 8/24: Taxes too high"],
     url: "https://www.zillow.com/homedetails/100-Heritage-Dr-Glastonbury-CT-06033/174072472_zpid",
     notes: "Ranch with finished lower level. Great separation: main floor primary (remodeled en-suite) + 1BR + full bath; lower level 1BR + full bath + family room w/ fireplace. Central air. Vaulted ceilings, skylights, quartz kitchen, 2 fireplaces. 2-car garage, shed. Glastonbury — strong town, good infrastructure.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-07-27"
+    dismissed: true,
+    lastChecked: "2026-08-24"
   },
   {
     id: "436-tiffany-ln-bristol-ct",
@@ -495,12 +496,12 @@ const LISTINGS = [
     status: "contingent",
     listedDate: "2026-06-20",
     hvac: "window",
-    flags: ["Window units only — mini-splits needed both levels ~$25-35k", "Taxes $9,530/yr, climbing 6-8%/yr", "Pool sold As Is / needs liner", "28 days on market, 184 saves, no contract — market pricing in AC/tax issues, watch for a drop", "Now accepting backups as of 7/30", "$20.1K cut 8/20 per Zillow notification, but math doesn't chain cleanly from $545k — likely an untracked intermediate cut"],
+    flags: ["Window units only — mini-splits needed both levels ~$25-35k", "Taxes $9,530/yr, climbing 6-8%/yr", "Pool sold As Is / needs liner", "28 days on market, 184 saves, no contract — market pricing in AC/tax issues, watch for a drop", "Now accepting backups as of 7/30", "Full cut history: $545k → $520k (8/8, -4.6%) → $499,900 (8/20)", "REMOVED 8/24: Too big"],
     url: "https://www.zillow.com/homedetails/436-Tiffany-Ln-Bristol-CT-06010/57704737_zpid/",
     notes: "Best in-law suite layout seen so far — lower level fully self-contained (BR, full bath, kitchen, living room, office, separate entrance). Upper level massive primary (13x19) + 3BR + 2 baths. Cul-de-sac, wooded, Cedar Lake neighborhood. Zestimate $546,300 — priced at fair value.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-08-22"
+    dismissed: true,
+    lastChecked: "2026-08-24"
   },
   {
     id: "420-lower-hampden-rd-monson-ma",
@@ -544,12 +545,12 @@ const LISTINGS = [
     status: "active",
     listedDate: "2026-06-03",
     hvac: "window",
-    flags: ["Window units only — mini-splits both units ~$30-40k", "Baseboard propane heat", "Tenant in unit 2, $1,200/mo below market, 6+ yrs, month-to-month — 30 days notice sufficient in MA for owner-occupant, handle carefully", "Walk score 0 — car dependent", "$25K cut 7/31: $525k → $500k"],
+    flags: ["Window units only — mini-splits both units ~$30-40k", "Baseboard propane heat", "Tenant in unit 2, $1,200/mo below market, 6+ yrs, month-to-month — 30 days notice sufficient in MA for owner-occupant, handle carefully", "Walk score 0 — car dependent", "$25K cut 7/31: $525k → $500k", "Consider if it drops to $400k. Concerned about flooding — worth checking flood zone/history before any offer"],
     url: "https://www.zillow.com/homedetails/577-579-Old-Greenwich-Plains-Rd-Hardwick-MA-01082/173774155_zpid/",
     notes: "True side-by-side duplex — perfect separation, each unit fully self-contained (2BR/1.5BA, full basement, attached garage, deck). Lowest taxes on the entire list at $4,388/yr. Wooded 1.48 acres, well-maintained. Ware ~10-15 min. Already had a $25k price drop. 2,318 sqft + 1,140 sqft finished basement.",
     watchlist: true,
     dismissed: false,
-    lastChecked: "2026-08-22"
+    lastChecked: "2026-08-24"
   },
   {
     id: "151-pantry-rd-hatfield-ma",
@@ -592,12 +593,12 @@ const LISTINGS = [
     type: "Cape",
     status: "pending",
     hvac: "minisplit",
-    flags: ["Former rental history — likely dated condition", "Very few listing photos — possibly hiding something", "No mention of updates", "Taxes $8,822/yr and climbing (Amherst premium)", "1964 build — mechanicals age unknown", "Will move fast in Amherst market", "$40k price cut on 8/4: $469,000 → $429,000", "Now pending as of 8/12"],
+    flags: ["Former rental history — likely dated condition", "Very few listing photos — possibly hiding something", "No mention of updates", "Taxes $8,822/yr and climbing (Amherst premium)", "1964 build — mechanicals age unknown", "Will move fast in Amherst market", "$40k price cut on 8/4: $469,000 → $429,000", "Now pending as of 8/12", "REMOVED 8/24: Partner doesn't love it"],
     url: "https://www.zillow.com/homedetails/23-S-Mount-Holyoke-Dr-Amherst-MA-01002/56258132_zpid",
     notes: "Perfect floor separation — 2BR/1BA first floor, 2BR/1BA second floor. Mini-splits already installed (ductless). Forced air oil heat. 2 fireplaces, hardwood floors. Walkout unfinished basement. 1.27 acres, prime Pioneer Valley location. Priced $89k under Zestimate ($558,300) — unusual gap.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-08-12"
+    dismissed: true,
+    lastChecked: "2026-08-24"
   },
   {
     id: "401-n-washington-st-belchertown-ma",
@@ -616,12 +617,12 @@ const LISTINGS = [
     status: "active",
     listedDate: "2026-07-29",
     hvac: "none",
-    flags: ["No cooling at all — mini-splits from scratch required", "Both baths on first floor — upstairs bedrooms bathless (2 baths downstairs helps but not ideal)", "1950 build with stone foundation — inspect carefully", "Verify garage bonus space use with town before advancing"],
+    flags: ["No cooling at all — mini-splits from scratch required", "Both baths on first floor — upstairs bedrooms bathless (2 baths downstairs helps but not ideal)", "1950 build with stone foundation — inspect carefully", "Verify garage bonus space use with town before advancing", "REMOVED 8/24: No bathroom upstairs — hard NO from partner"],
     url: "https://www.zillow.com/homedetails/401-N-Washington-Rd-Belchertown-MA-01007/57004666_zpid",
     notes: "Farmhouse on 3.32 acres — barn, garden, peach/apple trees. Both full baths + 2 BRs on first floor. 3 newly renovated BRs upstairs. Oversized 2-car garage with unfinished bonus space above — previously plumbed + electrical started, potential in-law/workshop/lapidary space. Zestimate $553,800 — priced $104k under estimated value. Taxes $5,176/yr. 42 photos, confident listing. Belchertown, Pioneer Valley. Moving fast.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-07-29"
+    dismissed: true,
+    lastChecked: "2026-08-24"
   },
   {
     id: "1-lakeshore-dr-monson-ma",
@@ -687,12 +688,12 @@ const LISTINGS = [
     type: "Cape",
     status: "active",
     hvac: "window",
-    flags: ["Window units only — mini-splits needed throughout 3 levels ~$25-35k", "No bath on main floor", "Full walkout basement w/ garage access — unfinished, not photographed, but significant bonus space", "Potentially very useful for lapidary/rock tumbling setup"],
+    flags: ["Window units only — mini-splits needed throughout 3 levels ~$25-35k", "No bath on main floor", "Full walkout basement w/ garage access — unfinished, not photographed, but significant bonus space", "Potentially very useful for lapidary/rock tumbling setup", "REMOVED 8/24: No bathroom on main floor — same dealbreaker as N Washington St"],
     url: "https://www.zillow.com/homedetails/73-Glendale-Rd-Hampden-MA-01036/56173352_zpid",
     notes: "3-level cape. Floor 1: main living (kitchen, dining 25x15, living 25x13, mudroom, no bath). Floor 2: 2BR + full bath (7x7) — private zone. Floor 3: large open loft (listed as 3 \"primary bedrooms\" but really one open space) + primary bath + closet — workshop/lapidary/sleeping potential. Laughing Brook waterfront, composite deck, wooded 0.71 acres. Taxes $7,424/yr. Not a flip — bought 2019, legitimate ownership. 1,795 views/127 saves, moving fast.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-08-04"
+    dismissed: true,
+    lastChecked: "2026-08-24"
   },
   {
     id: "129-upper-hampden-rd-monson-ma",
@@ -733,12 +734,12 @@ const LISTINGS = [
     type: "Ranch w/ in-law suite",
     status: "active",
     hvac: "minisplit",
-    flags: ["63% flip markup in 14 months ($263k → $429k)", "Verify “legally permitted” in-law suite status with Warren building dept before advancing", "In-law suite cooling not mentioned — confirm mini-splits cover it or if more are needed", "Tepid engagement possibly location/season related (August doldrums)"],
+    flags: ["63% flip markup in 14 months ($263k → $429k)", "Verify “legally permitted” in-law suite status with Warren building dept before advancing", "In-law suite cooling not mentioned — confirm mini-splits cover it or if more are needed", "Tepid engagement possibly location/season related (August doldrums)", "REMOVED 8/24: Neighbor too close"],
     url: "https://www.zillow.com/homedetails/102-Coy-Hill-Rd-West-Warren-MA-01083/57665273_zpid/",
     notes: "Legally permitted in-law suite — separate entrance, separate utilities, separate electric meter, full kitchen, full bath — best separation setup on the list. Mini-splits in main home. 24x24 detached garage (2009) — workshop potential. Ware hospital 4 miles away. Town water and sewer. Finished basement 1,104 sqft. Taxes $4,156/yr — very low. Listing photos are AI virtual staging of the empty house, not concealing damage.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-08-08"
+    dismissed: true,
+    lastChecked: "2026-08-24"
   },
   {
     id: "259-greenwich-rd-ware-ma",
@@ -805,11 +806,33 @@ const LISTINGS = [
     status: "active",
     listedDate: "2026-05-29",
     hvac: "central",
-    flags: ["Only 14 photos — likely dated 1978 interior", "Nearly 1 year on market across 2 MLS numbers ($588k → current)", "DOM reset in May 2026 after being pulled Dec 2025", "Sitting at top of street comps", "Partial basement only", "Worth seeing in person given partner's interest — photos don't tell the full story here", "Confirmed cuts: $560k (5/29) → $549k (6/12) → $539k (7/8) → $525k (7/29)", "$10K cut 8/18: $525k → $515k"],
+    flags: ["Only 14 photos — likely dated 1978 interior", "Nearly 1 year on market across 2 MLS numbers ($588k → current)", "DOM reset in May 2026 after being pulled Dec 2025", "Sitting at top of street comps", "Partial basement only", "Worth seeing in person given partner's interest — photos don't tell the full story here", "Confirmed cuts: $560k (5/29) → $549k (6/12) → $539k (7/8) → $525k (7/29)", "$10K cut 8/18: $525k → $515k", "REMOVED 8/24: Realtor owns the property and isn't forthcoming with layout/photos — can't get a real sense of the space"],
     url: "https://www.zillow.com/homedetails/79-Pine-Ridge-Rd-Montgomery-MA-01085/59246134_zpid/",
     notes: "Contemporary on 2.82 wooded acres abutting 1,200+ acres protected wildlife — exceptional privacy. Perfect separation: main floor primary suite (en-suite + walk-in closet) + 2BRs + full bath; upstairs 4th BR with skylight, cathedral ceiling, private full bath. Central air. Floor-to-ceiling fieldstone fireplace, vaulted ceilings, exposed beams, hardwood floors. 2-car garage. Taxes $5,211/yr. Montgomery near Westfield/I-90. Seller W/Participate = motivated, open to creative financing/negotiation.",
     watchlist: true,
+    dismissed: true,
+    lastChecked: "2026-08-24"
+  },
+  {
+    id: "222-granby-rd-belchertown-ma",
+    address: "222 Granby Rd",
+    town: "Belchertown",
+    state: "MA",
+    price: 529000,
+    lat: 42.2751,
+    lng: -72.4062,
+    beds: 3,
+    baths: 3,
+    sqft: 2034,
+    acres: 3.79,
+    type: "Cape",
+    status: "active",
+    hvac: "central",
+    flags: ["Verify solar owned vs. leased — not disclosed in listing", "Taxes climbing aggressively (assessed $500,400, up 8.4% last year)", "$260/sqft on the higher end for Belchertown", "43.6% markup over 7 years (not a flip — legitimate appreciation)"],
+    url: "https://www.zillow.com/homedetails/222-Granby-Rd-Belchertown-MA-01007/67714343_zpid/",
+    notes: "Cape, 2005 build. Clean separation — main floor primary suite (14x17, en-suite full bath + half bath) vs. upstairs 2BR (18x23 and 15x23) + double vanity full bath. Central air. Solar installed. Gas stove, skylights, vaulted ceilings. 2-car attached garage. 3.79 acres, fenced yard, fruit trees, deck/porch. Full walkout basement unfinished. Above ground pool removed. Partner find. Taxes $7,571/yr. Belchertown — good infrastructure, Baystate/Cooley Dickinson accessible. Title 5 required at sale (well + septic).",
+    watchlist: true,
     dismissed: false,
-    lastChecked: "2026-08-22"
+    lastChecked: "2026-08-24"
   }
 ];
