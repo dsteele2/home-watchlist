@@ -859,5 +859,28 @@ const LISTINGS = [
     watchlist: true,
     dismissed: false,
     lastChecked: "2026-08-25"
+  },
+  {
+    id: "78-oak-brook-dr-east-longmeadow-ma",
+    address: "78 Oak Brook Dr",
+    town: "East Longmeadow",
+    state: "MA",
+    price: 499000,
+    lat: 42.0645,
+    lng: -72.5054,
+    imageUrl: "https://photos.zillowstatic.com/fp/595f7c10cf52067ea61ae5f556717f9b-p_e.webp",
+    beds: 4,
+    baths: 2,
+    sqft: 1632,
+    acres: 0.58,
+    type: "Single family",
+    status: "active",
+    hvac: "window",
+    flags: ["Window units only — mini-splits needed ~$15-20k, ductwork helps", "100 amp service — needs upgrade to 200 amp ~$3-6k before mini-splits", "Taxes $7,962/yr", "Sump pump disclosed", "Partner lukewarm — “if nothing else available” status", "Low save rate (36/917 views)"],
+    url: "https://www.zillow.com/homedetails/78-Oak-Brook-Dr-East-Longmeadow-MA-01028/56169507_zpid/",
+    notes: "Clever layout — main floor BR + full bath + basement bonus room (10x21) for Person 1; huge primary (11x23) + 2 BRs + full bath upstairs for Person 2; 3rd upstairs BR as shared office. Internal stairs connect all levels. Sunroom, hardwood floors, granite kitchen, large yard. Mature evergreen privacy screening on both sides. Sidewalks, East Longmeadow infrastructure. Baystate Medical ~15 min. Public water/sewer. Natural gas forced air (ductwork exists). One year home warranty included.",
+    watchlist: true,
+    dismissed: false,
+    lastChecked: "2026-08-26"
   }
 ];
