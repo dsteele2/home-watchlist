@@ -56,15 +56,15 @@ const LISTINGS = [
     sqft: 2427,
     acres: 1.06,
     type: "Cape",
-    status: "contingent",
+    status: "sold",
     listedDate: "2026-07-16",
     hvac: "window",
-    flags: ["Strong interest — 1,578 views / 126 saves as of day 2", "Now pending as of 7/27", "Changed to accepting backups as of 7/30"],
+    flags: ["Strong interest — 1,578 views / 126 saves as of day 2", "Now pending as of 7/27", "Changed to accepting backups as of 7/30", "SOLD as of 8/27"],
     url: "https://www.zillow.com/homedetails/101-Abbey-Rd-East-Hampton-CT-06424/57853768_zpid/",
     notes: "Cape near Middletown. Main floor bed+bath, upstairs primary + 2 more beds. New septic + updated electrical. Window units only, mini-splits needed. Note: Zillow briefly showed this as off-market on 7/18 — confirmed still active; Zillow status/Zestimate can lag a few days.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-07-30"
+    dismissed: true,
+    lastChecked: "2026-08-27"
   },
   {
     id: "181-moulton-hill-rd-monson-ma",
