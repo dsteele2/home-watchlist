@@ -445,15 +445,15 @@ const LISTINGS = [
     sqft: 1902,
     acres: 0.89,
     type: "Bungalow",
-    status: "active",
+    status: "withdrawn",
     listedDate: "2025-12-01",
     hvac: "none",
-    flags: ["Bundle target — watch prices", "No longer partner's favorite, but staying on the list — especially worth revisiting if the price drops further"],
+    flags: ["Bundle target — watch prices", "No longer partner's favorite, but staying on the list — especially worth revisiting if the price drops further", "Off market as of 8/29 — removed from consideration"],
     url: "https://www.zillow.com/homedetails/763-Stony-Hill-Rd-Wilbraham-MA-01095/57000909_zpid/",
     notes: "Bungalow + detached studio w/ own kitchen, bath & laundry. 225+ days on market, low save ratio. Partner's top choice as a bundle: 763 ($485k) + adjacent 767 lot ($215k) = $700k combined ask. Target bundle price $560k — both sitting, seller motivated. Oil forced air + electric, no central air, mini-splits est. $15-25k.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-08-24"
+    dismissed: true,
+    lastChecked: "2026-08-29"
   },
   {
     id: "100-heritage-dr-glastonbury-ct",
@@ -853,12 +853,12 @@ const LISTINGS = [
     type: "Colonial",
     status: "active",
     hvac: "window",
-    flags: ["Electric heat + window units — mini-splits needed", "0.57 acres (small but wooded setting feels larger)", "Corner lot", "$20k cut on 8/19 suggests some market hesitancy", "Seller is paying off the solar system for the buyer — resolves the owned vs. leased question"],
+    flags: ["Electric heat + window units — mini-splits needed", "0.57 acres (small but wooded setting feels larger)", "Corner lot", "$20k cut on 8/19 suggests some market hesitancy", "Seller is paying off the solar system for the buyer — resolves the owned vs. leased question", "Dropped 8/29: after checking local politics, decided to aim for a less conservative area (Monson specifically)"],
     url: "https://www.zillow.com/homedetails/70-High-St-Monson-MA-01057/193647283_zpid",
     notes: "Distinctive colonial on wooded hillside — wraparound dormers, partner loves it. Genuine separation: primary suite (cathedral ceiling, walk-in closet, balcony, en-suite full bath) + \"second master\" BR with own full bath. 2 additional BRs. Finished basement. Garage under main level. Large deck off second floor, balconies. Public water + sewer (no septic). 220V electric. Monson location.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-08-25"
+    dismissed: true,
+    lastChecked: "2026-08-29"
   },
   {
     id: "78-oak-brook-dr-east-longmeadow-ma",
@@ -882,7 +882,6 @@ const LISTINGS = [
     watchlist: true,
     dismissed: false,
     lastChecked: "2026-08-26"
-<<<<<<< HEAD
   },
   {
     id: "123-saunders-st-gardner-ma",
@@ -916,6 +915,7 @@ const LISTINGS = [
     price: 539000,
     lat: 42.1112,
     lng: -72.437,
+    imageUrl: "https://photos.zillowstatic.com/fp/3b1943a8a9ae9a258f5e8e1eae824a33-p_f.jpg",
     beds: 4,
     baths: 2,
     sqft: 1858,
@@ -929,7 +929,5 @@ const LISTINGS = [
     watchlist: true,
     dismissed: false,
     lastChecked: "2026-08-28"
-=======
->>>>>>> d67d4daafd3b75b39721bf81546a941c3365ec39
   }
 ];
