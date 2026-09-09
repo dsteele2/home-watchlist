@@ -853,11 +853,7 @@ const LISTINGS = [
     type: "Colonial",
     status: "active",
     hvac: "window",
-<<<<<<< HEAD
     flags: ["Electric heat + window units — mini-splits needed", "0.57 acres (small but wooded setting feels larger)", "Corner lot", "$20k cut on 8/19 suggests some market hesitancy", "Seller is paying off the solar system for the buyer — resolves the owned vs. leased question", "Dropped from consideration despite the price cut — Monson politics were 50/50 (not a hard dealbreaker, would've been worth it for a truly ‘perfect’ house), but decided to hold out for something closer to target location instead", "Full price history: $499,000 → $479,900 (8/19) → $449,900 (weekend of 8/29-30)"],
-=======
-    flags: ["Electric heat + window units — mini-splits needed", "0.57 acres (small but wooded setting feels larger)", "Corner lot", "$20k cut on 8/19 suggests some market hesitancy", "Seller is paying off the solar system for the buyer — resolves the owned vs. leased question", "Dropped 8/29: after checking local politics, decided to aim for a less conservative area (Monson specifically)"],
->>>>>>> eccf70a5ba96c71d5b958d08b5a7b4606665ae9c
     url: "https://www.zillow.com/homedetails/70-High-St-Monson-MA-01057/193647283_zpid",
     notes: "Distinctive colonial on wooded hillside — wraparound dormers, partner loves it. Genuine separation: primary suite (cathedral ceiling, walk-in closet, balcony, en-suite full bath) + \"second master\" BR with own full bath. 2 additional BRs. Finished basement. Garage under main level. Large deck off second floor, balconies. Public water + sewer (no septic). 220V electric. Monson location.",
     watchlist: true,
