@@ -874,14 +874,14 @@ const LISTINGS = [
     sqft: 1632,
     acres: 0.58,
     type: "Single family",
-    status: "active",
+    status: "pending",
     hvac: "window",
-    flags: ["Window units only — mini-splits needed ~$15-20k, ductwork helps", "100 amp service — needs upgrade to 200 amp ~$3-6k before mini-splits", "Taxes $7,962/yr", "Sump pump disclosed", "Partner lukewarm — “if nothing else available” status", "Low save rate (36/917 views)"],
+    flags: ["Window units only — mini-splits needed ~$15-20k, ductwork helps", "100 amp service — needs upgrade to 200 amp ~$3-6k before mini-splits", "Taxes $7,962/yr", "Sump pump disclosed", "Partner lukewarm — “if nothing else available” status", "Low save rate (36/917 views)", "Under contract as of 9/2 — dismissed"],
     url: "https://www.zillow.com/homedetails/78-Oak-Brook-Dr-East-Longmeadow-MA-01028/56169507_zpid/",
     notes: "Clever layout — main floor BR + full bath + basement bonus room (10x21) for Person 1; huge primary (11x23) + 2 BRs + full bath upstairs for Person 2; 3rd upstairs BR as shared office. Internal stairs connect all levels. Sunroom, hardwood floors, granite kitchen, large yard. Mature evergreen privacy screening on both sides. Sidewalks, East Longmeadow infrastructure. Baystate Medical ~15 min. Public water/sewer. Natural gas forced air (ductwork exists). One year home warranty included.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-08-26"
+    dismissed: true,
+    lastChecked: "2026-09-02"
   },
   {
     id: "123-saunders-st-gardner-ma",
@@ -897,15 +897,15 @@ const LISTINGS = [
     sqft: 2102,
     acres: 3.5,
     type: "Cape",
-    status: "active",
+    status: "pending",
     listedDate: "2026-08-25",
     hvac: "none",
-    flags: ["No central air — whole house fan only, mini-splits would be needed", "Gardner GreatSchools ratings are low (2-4/10) — worth noting even without school-age considerations, can affect resale", "Walk Score 7/100 — fully car-dependent", "Heat is baseboard oil + wood, not forced air"],
+    flags: ["No central air — whole house fan only, mini-splits would be needed", "Gardner GreatSchools ratings are low (2-4/10) — worth noting even without school-age considerations, can affect resale", "Walk Score 7/100 — fully car-dependent", "Heat is baseboard oil + wood, not forced air", "Now pending as of 9/2"],
     url: "https://www.zillow.com/homedetails/123-Saunders-St-Gardner-MA-01440/57588581_zpid",
     notes: "First and only listing by original owner since 1986 — not a flip, well-loved home. Good separation: primary BR (23x13) + full bath on first floor; 2 BRs + full bath on second floor. Full unfinished basement — workshop potential. 2-car attached garage. 3.5 wooded acres, long private paved drive. 200+ amp. Passed Title 5. Taxes $6,060/yr — very reasonable. Zestimate $517,400 — priced at fair value. 42 photos, confident listing. Partner drove through area and likes it — Leominster (~15-20 min) as infrastructure hub, HealthAlliance Hospital in Leominster + UMass Medical Worcester as backup.",
     watchlist: true,
     dismissed: false,
-    lastChecked: "2026-08-27"
+    lastChecked: "2026-09-02"
   },
   {
     id: "634-glendale-rd-wilbraham-ma",
