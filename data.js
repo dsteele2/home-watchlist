@@ -929,5 +929,29 @@ const LISTINGS = [
     watchlist: true,
     dismissed: false,
     lastChecked: "2026-08-28"
+  },
+  {
+    id: "548-bolton-rd-vernon-ct",
+    address: "548 Bolton Road",
+    town: "Vernon",
+    state: "CT",
+    price: 439900,
+    lat: 41.819794,
+    lng: -72.43619,
+    imageUrl: "https://photos.zillowstatic.com/fp/23f8640dc2feb44541a0e8fe2130e9dd-cc_ft_1536.jpg",
+    beds: 5,
+    baths: 3,
+    sqft: 2352,
+    acres: 3.52,
+    type: "Ranch",
+    status: "active",
+    listedDate: "2026-09-07",
+    hvac: "central",
+    flags: ["In-ground pool, open status unknown — plan to leave closed/repurpose rather than maintain", "Vernon/Tolland County — geographically atypical vs. the rest of the list, outside the prior CT/MA corridor but accepted as reasonably close to Hartford", "Vernon not on ViewMyPermitCT — no public permit lookup available; low urgency given no flip signal, confirm HVAC permits with buyer's agent before offer", "High school (Rockville) rated 3/10 on GreatSchools — elementary/middle both 7/10", "Partner pick — reviewed and liked"],
+    url: "https://www.zillow.com/homedetails/548-Bolton-Rd-Vernon-CT-06066/60104481_zpid/",
+    notes: "Excellent separation — main level (primary + 3BR + full bath), finished walk-out lower level in-law suite (BR, full bath, full kitchen, fireplace, separate entrance + garage access). Central air (2020), new oil furnace (3/2025) — no mini-split retrofit needed. Septic pumped with clean report, well tested. No flip pattern — same ownership since 2007, current price reflects long-term appreciation + real updates. Taxes $7,584/yr.",
+    watchlist: true,
+    dismissed: false,
+    lastChecked: "2026-09-10"
   }
 ];
