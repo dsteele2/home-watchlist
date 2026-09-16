@@ -779,14 +779,14 @@ const LISTINGS = [
     sqft: 2644,
     acres: 7.74,
     type: "Single family",
-    status: "active",
+    status: "pending",
     hvac: "central",
-    flags: ["Offer fell through 8/17: no HVAC ducts in basement or attic, caught during the virtual showing (not visible in listing photos — no AC/condenser pic, and the stove pipe hole had been covered with painter's tape after listing photos were taken). Condenser also 27 years old, due for replacement. Offer reflected these issues; seller countered at full list, no movement."],
+    flags: ["Offer fell through 8/17: no HVAC ducts in basement or attic, caught during the virtual showing (not visible in listing photos — no AC/condenser pic, and the stove pipe hole had been covered with painter's tape after listing photos were taken). Condenser also 27 years old, due for replacement. Offer reflected these issues; seller countered at full list, no movement.", "Now pending as of 9/1 (already dismissed after our offer fell through)"],
     url: "https://www.zillow.com/homedetails/276-Old-Gilbertville-Rd-Ware-MA-01082/57026767_zpid",
     notes: "Excellent layout — 3BR/1BA main floor (1 BR may be laundry/nonconforming), lower level suite (BR 11x13 + full bath 12x12 + rec room 29x26), upper loft/bonus room (28x11 + balcony) — perfect music/make space for partner. Central air. 7.74 acres, 7-stall barn + garage/workshop. Cathedral ceilings, new kitchen, refinished hardwoods, big deck. Taxes ~$4,900/yr.",
     watchlist: true,
     dismissed: true,
-    lastChecked: "2026-08-17"
+    lastChecked: "2026-09-01"
   },
   {
     id: "79-pine-ridge-rd-montgomery-ma",
@@ -874,14 +874,14 @@ const LISTINGS = [
     sqft: 1632,
     acres: 0.58,
     type: "Single family",
-    status: "active",
+    status: "pending",
     hvac: "window",
-    flags: ["Window units only — mini-splits needed ~$15-20k, ductwork helps", "100 amp service — needs upgrade to 200 amp ~$3-6k before mini-splits", "Taxes $7,962/yr", "Sump pump disclosed", "Partner lukewarm — “if nothing else available” status", "Low save rate (36/917 views)"],
+    flags: ["Window units only — mini-splits needed ~$15-20k, ductwork helps", "100 amp service — needs upgrade to 200 amp ~$3-6k before mini-splits", "Taxes $7,962/yr", "Sump pump disclosed", "Partner lukewarm — “if nothing else available” status", "Low save rate (36/917 views)", "Under contract as of 9/2 — dismissed"],
     url: "https://www.zillow.com/homedetails/78-Oak-Brook-Dr-East-Longmeadow-MA-01028/56169507_zpid/",
     notes: "Clever layout — main floor BR + full bath + basement bonus room (10x21) for Person 1; huge primary (11x23) + 2 BRs + full bath upstairs for Person 2; 3rd upstairs BR as shared office. Internal stairs connect all levels. Sunroom, hardwood floors, granite kitchen, large yard. Mature evergreen privacy screening on both sides. Sidewalks, East Longmeadow infrastructure. Baystate Medical ~15 min. Public water/sewer. Natural gas forced air (ductwork exists). One year home warranty included.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-08-26"
+    dismissed: true,
+    lastChecked: "2026-09-02"
   },
   {
     id: "123-saunders-st-gardner-ma",
@@ -897,15 +897,15 @@ const LISTINGS = [
     sqft: 2102,
     acres: 3.5,
     type: "Cape",
-    status: "active",
+    status: "pending",
     listedDate: "2026-08-25",
     hvac: "none",
-    flags: ["No central air — whole house fan only, mini-splits would be needed", "Gardner GreatSchools ratings are low (2-4/10) — worth noting even without school-age considerations, can affect resale", "Walk Score 7/100 — fully car-dependent", "Heat is baseboard oil + wood, not forced air"],
+    flags: ["No central air — whole house fan only, mini-splits would be needed", "Gardner GreatSchools ratings are low (2-4/10) — worth noting even without school-age considerations, can affect resale", "Walk Score 7/100 — fully car-dependent", "Heat is baseboard oil + wood, not forced air", "Now pending as of 9/2"],
     url: "https://www.zillow.com/homedetails/123-Saunders-St-Gardner-MA-01440/57588581_zpid",
     notes: "First and only listing by original owner since 1986 — not a flip, well-loved home. Good separation: primary BR (23x13) + full bath on first floor; 2 BRs + full bath on second floor. Full unfinished basement — workshop potential. 2-car attached garage. 3.5 wooded acres, long private paved drive. 200+ amp. Passed Title 5. Taxes $6,060/yr — very reasonable. Zestimate $517,400 — priced at fair value. 42 photos, confident listing. Partner drove through area and likes it — Leominster (~15-20 min) as infrastructure hub, HealthAlliance Hospital in Leominster + UMass Medical Worcester as backup.",
     watchlist: true,
     dismissed: false,
-    lastChecked: "2026-08-27"
+    lastChecked: "2026-09-02"
   },
   {
     id: "634-glendale-rd-wilbraham-ma",
@@ -929,5 +929,29 @@ const LISTINGS = [
     watchlist: true,
     dismissed: false,
     lastChecked: "2026-08-28"
+  },
+  {
+    id: "548-bolton-rd-vernon-ct",
+    address: "548 Bolton Road",
+    town: "Vernon",
+    state: "CT",
+    price: 439900,
+    lat: 41.819794,
+    lng: -72.43619,
+    imageUrl: "https://photos.zillowstatic.com/fp/23f8640dc2feb44541a0e8fe2130e9dd-cc_ft_1536.jpg",
+    beds: 5,
+    baths: 3,
+    sqft: 2352,
+    acres: 3.52,
+    type: "Ranch",
+    status: "active",
+    listedDate: "2026-09-07",
+    hvac: "central",
+    flags: ["In-ground pool, open status unknown — plan to leave closed/repurpose rather than maintain", "Vernon/Tolland County — geographically atypical vs. the rest of the list, outside the prior CT/MA corridor but accepted as reasonably close to Hartford", "Vernon not on ViewMyPermitCT — no public permit lookup available; low urgency given no flip signal, confirm HVAC permits with buyer's agent before offer", "High school (Rockville) rated 3/10 on GreatSchools — elementary/middle both 7/10", "Partner pick — reviewed and liked"],
+    url: "https://www.zillow.com/homedetails/548-Bolton-Rd-Vernon-CT-06066/60104481_zpid/",
+    notes: "Excellent separation — main level (primary + 3BR + full bath), finished walk-out lower level in-law suite (BR, full bath, full kitchen, fireplace, separate entrance + garage access). Central air (2020), new oil furnace (3/2025) — no mini-split retrofit needed. Septic pumped with clean report, well tested. No flip pattern — same ownership since 2007, current price reflects long-term appreciation + real updates. Taxes $7,584/yr.",
+    watchlist: true,
+    dismissed: false,
+    lastChecked: "2026-09-10"
   }
 ];
