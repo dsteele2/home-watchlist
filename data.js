@@ -375,12 +375,12 @@ const LISTINGS = [
     status: "active",
     listedDate: "2026-06-14",
     hvac: "none",
-    flags: ["Not move-in ready — bare subfloor, unfinished drywall in photos", "Electric heat — needs full heat pump/mini-split overhaul ~$20-30k", "Odd exterior aesthetic", "68+ days on market even after cuts — watch if others look and pass to gauge hidden issues", "$65k cut on 7/28 ($495k → $430k) — finally in consideration range", "Will take a ton of cash to fix up. If it drops under $400k, might be interested."],
+    flags: ["Not move-in ready — bare subfloor, unfinished drywall in photos", "Electric heat — needs full heat pump/mini-split overhaul ~$20-30k", "Odd exterior aesthetic", "68+ days on market even after cuts — watch if others look and pass to gauge hidden issues", "$65k cut on 7/28 ($495k → $430k) — finally in consideration range", "Will take a ton of cash to fix up. If it drops under $400k, might be interested.", "Removed from consideration as of 9/24 — not on partner's list, or already pending/under contract"],
     url: "https://www.zillow.com/homedetails/68-Lyon-Rd-West-Brookfield-MA-01585/57673905_zpid/",
     notes: "ADU-style layout — upper level 3BR + half bath + kitchen/living, lower level BR + full bath + kitchenette + 2 bonus rooms. Heated 3-car detached garage — excellent workshop/studio potential. Ware 9 min. Taxes $3,866/yr — one of the lowest on the list.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-08-24"
+    dismissed: true,
+    lastChecked: "2026-09-24"
   },
   {
     id: "1130-main-dalton-rd-windsor-ma",
@@ -641,12 +641,12 @@ const LISTINGS = [
     status: "active",
     listedDate: "2026-07-20",
     hvac: "central",
-    flags: ["2023 distress sale at $152k origin (37% below 2011 price) — worth asking about", "2024 flip renovation → sold $439,900 → current owner relisting at $465k after 27 months", "Current seller is NOT the flipper — bought already-renovated house"],
+    flags: ["2023 distress sale at $152k origin (37% below 2011 price) — worth asking about", "2024 flip renovation → sold $439,900 → current owner relisting at $465k after 27 months", "Current seller is NOT the flipper — bought already-renovated house", "Removed from consideration as of 9/24 — not on partner's list, or already pending/under contract"],
     url: "https://www.zillow.com/homedetails/1-Lakeshore-Dr-Monson-MA-01057/193645544_zpid",
     notes: "Great layout — 2BR/1BA first floor, 2BR/1BA second floor. Half bath in basement. Central air, natural gas forced air, 200+ amp, solar panels. Private lake access (Pulpit Rock Lake) for Lakeshore Dr residents only. Composite deck, 1.38 acres. Taxes $5,530/yr. Moving fast — 93rd percentile for speed nearby.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-08-01"
+    dismissed: true,
+    lastChecked: "2026-09-24"
   },
   {
     id: "12-stage-rd-westhampton-ma",
@@ -711,12 +711,12 @@ const LISTINGS = [
     type: "Single family",
     status: "pending",
     hvac: "central",
-    flags: ["1933 build — exceeds 75-year rule by 18 years", "Stone/block foundation with partial crawl space — moisture/structural inspection critical", "Partial crawl only, no real workshop/basement space", "$355k → $499,413 in 2.5 years (41% markup) on modest garage/driveway improvements — cosmetic work by prior owner", "Oddly specific price suggests payoff-based rather than market-based pricing", "19 days, 128 saves, no contract — age/foundation giving buyers pause", "Now pending as of 8/12"],
+    flags: ["1933 build — exceeds 75-year rule by 18 years", "Stone/block foundation with partial crawl space — moisture/structural inspection critical", "Partial crawl only, no real workshop/basement space", "$355k → $499,413 in 2.5 years (41% markup) on modest garage/driveway improvements — cosmetic work by prior owner", "Oddly specific price suggests payoff-based rather than market-based pricing", "19 days, 128 saves, no contract — age/foundation giving buyers pause", "Now pending as of 8/12", "Removed from consideration as of 9/24 — not on partner's list, or already pending/under contract"],
     url: "https://www.zillow.com/homedetails/129-Upper-Hampden-Rd-Monson-MA-01057/193645141_zpid",
     notes: "Perfect layout — 2BR/1BA first floor, primary suite + en-suite full bath second floor. Central air, 200+ amp + generator connection. Newly renovated garage (all new electrical). 16.12 level acres — trails, flat backyard, exceptional land. Monson location. Taxes $4,880/yr.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-08-12"
+    dismissed: true,
+    lastChecked: "2026-09-24"
   },
   {
     id: "102-coy-hill-rd-west-warren-ma",
@@ -758,12 +758,12 @@ const LISTINGS = [
     status: "pending",
     listedDate: "2026-08-01",
     hvac: "none",
-    flags: ["No AC — baseboard oil + wood stove only", "Mini-splits from scratch required ~$18-25k, complex with vaulted ceilings", "Bought $350k Jan 2021 → $499k Aug 2026 (42.6% markup)", "No garage", "Partner prefers ADU setup — this doesn't have one", "Watch if it sits; not an immediate jump-on-it given partner's ADU preference", "Now pending as of 8/20"],
+    flags: ["No AC — baseboard oil + wood stove only", "Mini-splits from scratch required ~$18-25k, complex with vaulted ceilings", "Bought $350k Jan 2021 → $499k Aug 2026 (42.6% markup)", "No garage", "Partner prefers ADU setup — this doesn't have one", "Watch if it sits; not an immediate jump-on-it given partner's ADU preference", "Now pending as of 8/20", "Removed from consideration as of 9/24 — not on partner's list, or already pending/under contract"],
     url: "https://www.zillow.com/homedetails/259-Greenwich-Rd-Ware-MA-01082/57026778_zpid",
     notes: "Stunning waterfront cape — brook access to Hardwick Pond, kayak from backyard. Gorgeous primary suite upstairs (19x20 + private bath + wood ceiling). 2BR/1BA on main floor — solid separation. Living room 18x28, custom kitchen with island/quartz/gas range. Full walkout basement — insulation boards mounted, unfinished but clearly finishable and structurally solid. 3.03 wooded acres, terraced stone gardens, fire pit, wraparound deck. Red barn/shed on property. Taxes $5,274/yr. Ware, hospital 4 miles. Flood risk low (First Street 1/10, no FEMA high-risk designation). 43 listing photos — confident listing.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-08-20"
+    dismissed: true,
+    lastChecked: "2026-09-24"
   },
   {
     id: "276-old-gilbertville-rd-ware-ma",
@@ -829,12 +829,12 @@ const LISTINGS = [
     type: "Cape",
     status: "active",
     hvac: "central",
-    flags: ["Verify solar owned vs. leased — not disclosed in listing", "Taxes climbing aggressively (assessed $500,400, up 8.4% last year)", "$260/sqft on the higher end for Belchertown", "43.6% markup over 7 years (not a flip — legitimate appreciation)"],
+    flags: ["Verify solar owned vs. leased — not disclosed in listing", "Taxes climbing aggressively (assessed $500,400, up 8.4% last year)", "$260/sqft on the higher end for Belchertown", "43.6% markup over 7 years (not a flip — legitimate appreciation)", "Removed from consideration as of 9/24 — not on partner's list, or already pending/under contract"],
     url: "https://www.zillow.com/homedetails/222-Granby-Rd-Belchertown-MA-01007/67714343_zpid/",
     notes: "Cape, 2005 build. Clean separation — main floor primary suite (14x17, en-suite full bath + half bath) vs. upstairs 2BR (18x23 and 15x23) + double vanity full bath. Central air. Solar installed. Gas stove, skylights, vaulted ceilings. 2-car attached garage. 3.79 acres, fenced yard, fruit trees, deck/porch. Full walkout basement unfinished. Above ground pool removed. Partner find. Taxes $7,571/yr. Belchertown — good infrastructure, Baystate/Cooley Dickinson accessible. Title 5 required at sale (well + septic).",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-08-24"
+    dismissed: true,
+    lastChecked: "2026-09-24"
   },
   {
     id: "70-high-st-monson-ma",
@@ -923,12 +923,12 @@ const LISTINGS = [
     type: "Cape",
     status: "active",
     hvac: "central",
-    flags: ["1940 build on block foundation — exceeds 75-year rule, careful inspection needed", "“Formerly finished” basement — likely moisture event, now unfinished", "Pool sold AS-IS, not opened in years — budget $5-15k remediation or removal", "Demolished outbuilding/shed AS-IS — remnants unknown", "Dining room slider sealed closed — ask why", "Very low engagement (11 saves in 2 days)", "One-day pull/relist Aug 26-27 — ask agent why", "Seller disclosures: pool not opened in years (AS-IS), outbuilding/shed demolished (AS-IS), extra slate pavers remain, dining room slider sealed closed. Seller-stated updates: HVAC (2014); water heater, septic, refinished hardwoods, interior paint, family room vinyl flooring + rear windows (all 2026). Living area figure excludes the partially finished walkout basement."],
+    flags: ["1940 build on block foundation — exceeds 75-year rule, careful inspection needed", "“Formerly finished” basement — likely moisture event, now unfinished", "Pool sold AS-IS, not opened in years — budget $5-15k remediation or removal", "Demolished outbuilding/shed AS-IS — remnants unknown", "Dining room slider sealed closed — ask why", "Very low engagement (11 saves in 2 days)", "One-day pull/relist Aug 26-27 — ask agent why", "Seller disclosures: pool not opened in years (AS-IS), outbuilding/shed demolished (AS-IS), extra slate pavers remain, dining room slider sealed closed. Seller-stated updates: HVAC (2014); water heater, septic, refinished hardwoods, interior paint, family room vinyl flooring + rear windows (all 2026). Living area figure excludes the partially finished walkout basement.", "Removed from consideration as of 9/24 — not on partner's list, or already pending/under contract"],
     url: "https://www.zillow.com/homedetails/634-Glendale-Rd-Wilbraham-MA-01095/56999385_zpid/",
     notes: "Classic New England Cape on 5 acres abutting conservation land — nobody builds behind you ever. Perfect separation: 2BR/1BA main floor, 2BR/1BA second floor (one BR has fireplace + rooftop patio). Central air, 200+ amp. 3 fireplaces. 2-car attached garage. Refinished hardwoods, arched doorways, slate/stone den. Title 5 Certificate of Compliance. Wilbraham — Springfield suburbs sweet spot, Baystate Medical close, good politics. Taxes $7,263/yr.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-08-28"
+    dismissed: true,
+    lastChecked: "2026-09-24"
   },
   {
     id: "548-bolton-rd-vernon-ct",
@@ -970,11 +970,11 @@ const LISTINGS = [
     type: "Single family",
     status: "active",
     hvac: "none",
-    flags: ["Baseboard heat only, no AC — mini-splits needed", "Primary bath listed as \"half bath\" on MLS but is actually a 3/4 (toilet/shower) — confirm at showing that the separate full bath on the 1st floor is conveniently positioned near the primary", "Garage workshop has no photos — ask agent for size/power specs before assuming it's usable", "Competitive area — avg 24 days to pending, homes selling ~101% of list on average, move quickly if interested", "Backup/secondary interest — 634 Glendale Rd remains primary choice"],
+    flags: ["Baseboard heat only, no AC — mini-splits needed", "Primary bath listed as \"half bath\" on MLS but is actually a 3/4 (toilet/shower) — confirm at showing that the separate full bath on the 1st floor is conveniently positioned near the primary", "Garage workshop has no photos — ask agent for size/power specs before assuming it's usable", "Competitive area — avg 24 days to pending, homes selling ~101% of list on average, move quickly if interested", "Backup/secondary interest — 634 Glendale Rd remains primary choice", "Removed from consideration as of 9/24 — not on partner's list, or already pending/under contract"],
     url: "https://www.zillow.com/homedetails/5-Old-Farm-Cir-Belchertown-MA-01007/57001585_zpid",
     notes: "End of cul-de-sac, 3.04 wooded acres, private. Primary BR on 1st floor with attached 3/4 bath plus a separate full bath also on 1st floor; upstairs 2BR share their own full bath. In-ground fenced pool, not opened this season, plan to leave closed. No flip pattern — steady tax assessment growth since 2011, one long-term owner. Taxes $4,235/yr — notably low for the area. Redfin Estimate $451,074, priced fairly; area comps run higher (~$517k median) but on smaller lots.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-09-12"
+    dismissed: true,
+    lastChecked: "2026-09-24"
   }
 ];
