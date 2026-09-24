@@ -953,5 +953,28 @@ const LISTINGS = [
     watchlist: true,
     dismissed: false,
     lastChecked: "2026-09-10"
+  },
+  {
+    id: "5-old-farm-cir-belchertown-ma",
+    address: "5 Old Farm Cir",
+    town: "Belchertown",
+    state: "MA",
+    price: 450000,
+    lat: 42.2751,
+    lng: -72.4062,
+    imageUrl: "https://photos.zillowstatic.com/fp/99e2844124a1c77569d1321a7820d15e-cc_ft_960.webp",
+    beds: 3,
+    baths: 2.5,
+    sqft: 1845,
+    acres: 3.04,
+    type: "Single family",
+    status: "active",
+    hvac: "none",
+    flags: ["Baseboard heat only, no AC — mini-splits needed", "Primary bath listed as \"half bath\" on MLS but is actually a 3/4 (toilet/shower) — confirm at showing that the separate full bath on the 1st floor is conveniently positioned near the primary", "Garage workshop has no photos — ask agent for size/power specs before assuming it's usable", "Competitive area — avg 24 days to pending, homes selling ~101% of list on average, move quickly if interested", "Backup/secondary interest — 634 Glendale Rd remains primary choice"],
+    url: "https://www.zillow.com/homedetails/5-Old-Farm-Cir-Belchertown-MA-01007/57001585_zpid",
+    notes: "End of cul-de-sac, 3.04 wooded acres, private. Primary BR on 1st floor with attached 3/4 bath plus a separate full bath also on 1st floor; upstairs 2BR share their own full bath. In-ground fenced pool, not opened this season, plan to leave closed. No flip pattern — steady tax assessment growth since 2011, one long-term owner. Taxes $4,235/yr — notably low for the area. Redfin Estimate $451,074, priced fairly; area comps run higher (~$517k median) but on smaller lots.",
+    watchlist: true,
+    dismissed: false,
+    lastChecked: "2026-09-12"
   }
 ];
