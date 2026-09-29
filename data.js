@@ -424,12 +424,12 @@ const LISTINGS = [
     status: "active",
     listedDate: "2026-04-15",
     hvac: "none",
-    flags: ["Need ~$100k drop", "$30k price cut on 8/6: $499,900 → $469,900"],
+    flags: ["Need ~$100k drop", "$30k price cut on 8/6: $499,900 → $469,900", "Removed — too far past Palmer, not close enough to infrastructure"],
     url: "https://www.zillow.com/homedetails/1511-Dunhamtown-Brimfield-Rd-Brimfield-MA-01010/56990110_zpid/",
     notes: "Natural floor split. Stream, solar panels, deck. Full 1993 time capsule — est. $60-80k cosmetic work needed. Oil baseboard, no ductwork, mini-splits needed. Watch for drop to ~$399,900.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-08-08"
+    dismissed: true,
+    lastChecked: "2026-09-29"
   },
   {
     id: "763-stony-hill-rd-wilbraham-ma",
@@ -545,12 +545,12 @@ const LISTINGS = [
     status: "active",
     listedDate: "2026-06-03",
     hvac: "window",
-    flags: ["Window units only — mini-splits both units ~$30-40k", "Baseboard propane heat", "Tenant in unit 2, $1,200/mo below market, 6+ yrs, month-to-month — 30 days notice sufficient in MA for owner-occupant, handle carefully", "Walk score 0 — car dependent", "$25K cut 7/31: $525k → $500k", "Consider if it drops to $400k. Concerned about flooding — worth checking flood zone/history before any offer"],
+    flags: ["Window units only — mini-splits both units ~$30-40k", "Baseboard propane heat", "Tenant in unit 2, $1,200/mo below market, 6+ yrs, month-to-month — 30 days notice sufficient in MA for owner-occupant, handle carefully", "Walk score 0 — car dependent", "$25K cut 7/31: $525k → $500k", "Consider if it drops to $400k. Concerned about flooding — worth checking flood zone/history before any offer", "Decided not to pursue — confirmed to be in a flood plain"],
     url: "https://www.zillow.com/homedetails/577-579-Old-Greenwich-Plains-Rd-Hardwick-MA-01082/173774155_zpid/",
     notes: "True side-by-side duplex — perfect separation, each unit fully self-contained (2BR/1.5BA, full basement, attached garage, deck). Lowest taxes on the entire list at $4,388/yr. Wooded 1.48 acres, well-maintained. Ware ~10-15 min. Already had a $25k price drop. 2,318 sqft + 1,140 sqft finished basement.",
     watchlist: true,
-    dismissed: false,
-    lastChecked: "2026-08-24"
+    dismissed: true,
+    lastChecked: "2026-09-29"
   },
   {
     id: "151-pantry-rd-hatfield-ma",
